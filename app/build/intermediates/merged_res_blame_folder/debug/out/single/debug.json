@@ -1,0 +1,350 @@
+[
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/layout_activity_screen_touch.xml.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/layout/activity_screen_touch.xml"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/layout_activity_login.xml.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_camera.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/camera.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/layout_activity_flash_test.xml.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/layout/activity_flash_test.xml"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_scan_headphonejack.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/scan_headphonejack.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_face_scan.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/face_scan.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_tap.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/tap.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_scan_camera.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/scan_camera.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_xtracover_logo_new.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/xtracover_logo_new.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_bg_test_drwble_red.xml.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/bg_test_drwble_red.xml"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_scan_homebutton.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/scan_homebutton.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/layout_activity_proximity_sensor.xml.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/layout/activity_proximity_sensor.xml"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_scan_wifi.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/scan_wifi.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/layout_activity_dashboard.xml.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/xml_backup_rules.xml.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_microphone.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/microphone.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_brightness.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/brightness.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_volume_up.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/volume_up.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/layout_activity_microphone_test.xml.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/layout/activity_microphone_test.xml"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_xcqc_new_logo.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/xcqc_new_logo.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_fingerprint.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/fingerprint.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_scan_gps.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/scan_gps.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/layout_activity_gpstest.xml.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/layout/activity_gpstest.xml"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_scan_loudspeakerclear.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/scan_loudspeakerclear.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_check_mark.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/check_mark.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/layout_activity_nfctest.xml.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/layout/activity_nfctest.xml"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_start_test_btn_bg.xml.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/start_test_btn_bg.xml"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_scan_gyroscopesensor.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/scan_gyroscopesensor.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_scan_vibrate.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/scan_vibrate.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/layout_activity_splash_screen.xml.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_low_volume.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/low_volume.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_scan_battery.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/scan_battery.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_refresh.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/refresh.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_scan_microphone.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/scan_microphone.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_battery.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/battery.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_scan_pixelfreescreen.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/scan_pixelfreescreen.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/xml_data_extraction_rules.xml.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_scan_light.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/scan_light.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_check_circle.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/check_circle.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_phone_call.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/phone_call.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_user.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/user.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_scan_flashtorch.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/scan_flashtorch.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_simcard.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/simcard.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/layout_google_progress_bar_item.xml.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/layout/google_progress_bar_item.xml"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_dial_pad.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/dial_pad.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_scan_proxomity.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/scan_proxomity.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_operator.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/operator.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_padlock.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/padlock.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/layout_activity_bluetooth_test.xml.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/layout/activity_bluetooth_test.xml"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/layout_activity_accelerometer_test.xml.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/layout/activity_accelerometer_test.xml"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_extracover_logo.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/extracover_logo.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/layout_activity_buttons_test.xml.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/layout/activity_buttons_test.xml"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_back.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/back.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_headphone_symbol.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/headphone_symbol.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_scan_screen.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/scan_screen.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_home.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/home.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/layout_activity_wi_fi_internet_test.xml.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/layout/activity_wi_fi_internet_test.xml"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_scan_nfc.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/scan_nfc.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_scan_ledflash.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/scan_ledflash.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/layout_activity_vibration_test.xml.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/layout/activity_vibration_test.xml"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_bg_test_drwble_blue.xml.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/bg_test_drwble_blue.xml"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_bluetooth.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/bluetooth.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_back_arrow.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/back_arrow.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_scan_backlight.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/scan_backlight.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_scan_powerbutton.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/scan_powerbutton.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_bg_test_drwble_green.xml.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/bg_test_drwble_green.xml"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_scan_devicecharging.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/scan_devicecharging.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/drawable_heart.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/drawable/heart.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-30:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.xtracover.xcqcmh.app-main-32:/mipmap-hdpi/ic_launcher_round.png"
+    }
+]
