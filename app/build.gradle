@@ -59,4 +59,6 @@ dependencies {
 
     implementation 'com.jpardogo.googleprogressbar:library:1.2.0'
 
+    implementation 'com.github.cooltechworks:ScratchView:v1.1'
+
 }

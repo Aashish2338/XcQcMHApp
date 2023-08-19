@@ -114,8 +114,7 @@
                 android:layout_height="60dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/bg_test_drwble_blue"
-                android:orientation="horizontal"
-                android:visibility="visible">
+                android:orientation="horizontal">
 
                 <ImageView
                     android:layout_width="35dp"
@@ -141,45 +140,12 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/gpsTest"
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:layout_margin="8dp"
-                android:background="@drawable/bg_test_drwble_blue"
-                android:orientation="horizontal"
-                android:visibility="visible">
-
-                <ImageView
-                    android:layout_width="35dp"
-                    android:layout_height="40dp"
-                    android:layout_gravity="center"
-                    android:layout_marginLeft="16dp"
-                    android:scaleType="fitXY"
-                    app:srcCompat="@drawable/scan_gps" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="35dp"
-                    android:layout_gravity="center"
-                    android:layout_marginLeft="16dp"
-                    android:fontFamily="sans-serif-medium"
-                    android:gravity="center"
-                    android:text="GPS"
-                    android:textAlignment="center"
-                    android:textColor="@color/white"
-                    android:textSize="18sp"
-                    android:textStyle="normal" />
-
-            </LinearLayout>
-
-            <LinearLayout
                 android:id="@+id/bluetoothTest"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/bg_test_drwble_blue"
-                android:orientation="horizontal"
-                android:visibility="visible">
+                android:orientation="horizontal">
 
                 <ImageView
                     android:layout_width="35dp"
@@ -211,8 +177,7 @@
                 android:layout_height="60dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/bg_test_drwble_blue"
-                android:orientation="horizontal"
-                android:visibility="visible">
+                android:orientation="horizontal">
 
                 <ImageView
                     android:layout_width="35dp"
@@ -243,8 +208,7 @@
                 android:layout_height="60dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/bg_test_drwble_blue"
-                android:orientation="horizontal"
-                android:visibility="visible">
+                android:orientation="horizontal">
 
                 <ImageView
                     android:layout_width="35dp"
@@ -276,8 +240,7 @@
                 android:layout_height="60dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/bg_test_drwble_blue"
-                android:orientation="horizontal"
-                android:visibility="visible">
+                android:orientation="horizontal">
 
                 <ImageView
                     android:layout_width="35dp"
@@ -303,13 +266,12 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/accelerometerTest"
+                android:id="@+id/frontCameraTest"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/bg_test_drwble_blue"
-                android:orientation="horizontal"
-                android:visibility="visible">
+                android:orientation="horizontal">
 
                 <ImageView
                     android:layout_width="35dp"
@@ -317,7 +279,7 @@
                     android:layout_gravity="center"
                     android:layout_marginLeft="16dp"
                     android:scaleType="fitXY"
-                    app:srcCompat="@drawable/scan_gyroscopesensor" />
+                    app:srcCompat="@drawable/scan_frontcamera" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -326,7 +288,100 @@
                     android:layout_marginLeft="16dp"
                     android:fontFamily="sans-serif-medium"
                     android:gravity="center"
-                    android:text="Accelerometer"
+                    android:text="Front Camera"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rearCameraTest"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/bg_test_drwble_blue"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/scan_rearcamera" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center"
+                    android:text="Rear Camera"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/altraWideCameraTest"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/bg_test_drwble_blue"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/scan_camera" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center"
+                    android:text="Altra Wide Camera"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/loudSpeakerTest"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/bg_test_drwble_blue"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/scan_loudspeakerclear" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center"
+                    android:text="Loud Speaker"
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:textSize="18sp"
@@ -340,8 +395,7 @@
                 android:layout_height="60dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/bg_test_drwble_blue"
-                android:orientation="horizontal"
-                android:visibility="visible">
+                android:orientation="horizontal">
 
                 <ImageView
                     android:layout_width="35dp"
@@ -367,13 +421,204 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/earpieceTest"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/bg_test_drwble_blue"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/scan_earphone" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center"
+                    android:text="Earpiece"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lCDTest"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/bg_test_drwble_blue"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/scan_pixelfreescreen" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center"
+                    android:text="LCD Glass"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lCDPixelTest"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/bg_test_drwble_blue"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/report_point"
+                    app:tint="@color/white" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center"
+                    android:text="LCD Pixel"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/digitizerTest"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/bg_test_drwble_blue"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/scan_digitizer"
+                    app:tint="@color/white" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center"
+                    android:text="Digitizer"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+            <!--// This is not in use, but in case we will need for this then use then.-->
+            <LinearLayout
+                android:id="@+id/gpsTest"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/bg_test_drwble_blue"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/scan_gps" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center"
+                    android:text="GPS"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/accelerometerTest"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/bg_test_drwble_blue"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/scan_gyroscopesensor" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center"
+                    android:text="Accelerometer"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+            <LinearLayout
                 android:id="@+id/touchTest"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/bg_test_drwble_blue"
                 android:orientation="horizontal"
-                android:visibility="visible">
+                android:visibility="gone">
 
                 <ImageView
                     android:layout_width="35dp"
@@ -405,7 +650,7 @@
                 android:layout_margin="8dp"
                 android:background="@drawable/bg_test_drwble_blue"
                 android:orientation="horizontal"
-                android:visibility="visible">
+                android:visibility="gone">
 
                 <ImageView
                     android:layout_width="35dp"
@@ -438,7 +683,7 @@
                 android:layout_margin="8dp"
                 android:background="@drawable/bg_test_drwble_blue"
                 android:orientation="horizontal"
-                android:visibility="visible">
+                android:visibility="gone">
 
                 <ImageView
                     android:layout_width="35dp"
@@ -465,77 +710,13 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/lCDTest"
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:layout_margin="8dp"
-                android:background="@drawable/bg_test_drwble_blue"
-                android:orientation="horizontal"
-                android:visibility="visible">
-
-                <ImageView
-                    android:layout_width="35dp"
-                    android:layout_height="40dp"
-                    android:layout_gravity="center"
-                    android:layout_marginLeft="16dp"
-                    android:scaleType="fitXY"
-                    app:srcCompat="@drawable/scan_pixelfreescreen" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="35dp"
-                    android:layout_gravity="center"
-                    android:layout_marginLeft="16dp"
-                    android:fontFamily="sans-serif-medium"
-                    android:gravity="center"
-                    android:text="LCD"
-                    android:textAlignment="center"
-                    android:textColor="@color/white"
-                    android:textSize="18sp"
-                    android:textStyle="normal" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/cameraTest"
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:layout_margin="8dp"
-                android:background="@drawable/bg_test_drwble_blue"
-                android:orientation="horizontal"
-                android:visibility="visible">
-
-                <ImageView
-                    android:layout_width="35dp"
-                    android:layout_height="40dp"
-                    android:layout_gravity="center"
-                    android:layout_marginLeft="16dp"
-                    android:scaleType="fitXY"
-                    app:srcCompat="@drawable/scan_camera" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="35dp"
-                    android:layout_gravity="center"
-                    android:layout_marginLeft="16dp"
-                    android:fontFamily="sans-serif-medium"
-                    android:gravity="center"
-                    android:text="Cameras"
-                    android:textAlignment="center"
-                    android:textColor="@color/white"
-                    android:textSize="18sp"
-                    android:textStyle="normal" />
-
-            </LinearLayout>
-
-            <LinearLayout
                 android:id="@+id/flashTest"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/bg_test_drwble_blue"
                 android:orientation="horizontal"
-                android:visibility="visible">
+                android:visibility="gone">
 
                 <ImageView
                     android:layout_width="35dp"
@@ -632,7 +813,7 @@
                 android:layout_margin="8dp"
                 android:background="@drawable/bg_test_drwble_blue"
                 android:orientation="horizontal"
-                android:visibility="visible">
+                android:visibility="gone">
 
                 <ImageView
                     android:layout_width="35dp"
@@ -664,7 +845,7 @@
                 android:layout_margin="8dp"
                 android:background="@drawable/bg_test_drwble_blue"
                 android:orientation="horizontal"
-                android:visibility="visible">
+                android:visibility="gone">
 
                 <ImageView
                     android:layout_width="35dp"
@@ -696,7 +877,7 @@
                 android:layout_margin="8dp"
                 android:background="@drawable/bg_test_drwble_blue"
                 android:orientation="horizontal"
-                android:visibility="visible">
+                android:visibility="gone">
 
                 <ImageView
                     android:layout_width="35dp"
@@ -729,7 +910,7 @@
                 android:layout_margin="8dp"
                 android:background="@drawable/bg_test_drwble_blue"
                 android:orientation="horizontal"
-                android:visibility="visible">
+                android:visibility="gone">
 
                 <ImageView
                     android:layout_width="35dp"
@@ -761,7 +942,7 @@
                 android:layout_margin="8dp"
                 android:background="@drawable/bg_test_drwble_blue"
                 android:orientation="horizontal"
-                android:visibility="visible">
+                android:visibility="gone">
 
                 <ImageView
                     android:layout_width="35dp"
@@ -794,7 +975,7 @@
                 android:layout_margin="8dp"
                 android:background="@drawable/bg_test_drwble_blue"
                 android:orientation="horizontal"
-                android:visibility="visible">
+                android:visibility="gone">
 
                 <ImageView
                     android:layout_width="35dp"
@@ -827,7 +1008,7 @@
                 android:layout_margin="8dp"
                 android:background="@drawable/bg_test_drwble_blue"
                 android:orientation="horizontal"
-                android:visibility="visible">
+                android:visibility="gone">
 
                 <ImageView
                     android:layout_width="35dp"
@@ -860,7 +1041,7 @@
                 android:layout_margin="8dp"
                 android:background="@drawable/bg_test_drwble_blue"
                 android:orientation="horizontal"
-                android:visibility="visible">
+                android:visibility="gone">
 
                 <ImageView
                     android:layout_width="35dp"
@@ -892,7 +1073,8 @@
                 android:layout_height="60dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/bg_test_drwble_blue"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:visibility="gone">
 
                 <ImageView
                     android:layout_width="35dp"
@@ -925,7 +1107,8 @@
                 android:layout_height="60dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/bg_test_drwble_blue"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:visibility="gone">
 
                 <ImageView
                     android:layout_width="35dp"
@@ -957,7 +1140,8 @@
                 android:layout_height="60dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/bg_test_drwble_blue"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:visibility="gone">
 
                 <ImageView
                     android:layout_width="35dp"

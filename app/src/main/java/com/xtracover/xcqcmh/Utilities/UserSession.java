@@ -88,4 +88,13 @@ public class UserSession {
     public String getUserName() {
         return pref.getString("UserId", " ");
     }
+
+    public void setLCDPixel(String lCDPixel) {
+        editor.putString("LCDPixel", lCDPixel);
+        editor.commit();
+    }
+
+    public String getLCDPixel() {
+        return pref.getString("LCDPixel", " ");
+    }
 }

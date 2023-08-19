@@ -2052,6 +2052,8 @@ color purple_700
 color red
 color ripple_material_dark
 color ripple_material_light
+color scratch_end_gradient
+color scratch_start_gradient
 color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
@@ -2944,6 +2946,7 @@ drawable btn_radio_on_to_off_mtrl_animation
 drawable camera
 drawable check_circle
 drawable check_mark
+drawable deadpixels
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -2969,6 +2972,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_scratch_pattern
 drawable ic_search_black_24
 drawable low_volume
 drawable m3_appbar_background
@@ -3046,12 +3050,17 @@ drawable notify_panel_notification_icon_bg
 drawable operator
 drawable padlock
 drawable phone_call
+drawable pixel_lcd_color
 drawable refresh
+drawable report_point
 drawable scan_backlight
 drawable scan_battery
 drawable scan_camera
 drawable scan_devicecharging
+drawable scan_digitizer
+drawable scan_earphone
 drawable scan_flashtorch
+drawable scan_frontcamera
 drawable scan_gps
 drawable scan_gyroscopesensor
 drawable scan_headphonejack
@@ -3064,9 +3073,11 @@ drawable scan_nfc
 drawable scan_pixelfreescreen
 drawable scan_powerbutton
 drawable scan_proxomity
+drawable scan_rearcamera
 drawable scan_screen
 drawable scan_vibrate
 drawable scan_wifi
+drawable scratch_lcd_color
 drawable simcard
 drawable start_test_btn_bg
 drawable tap
@@ -3155,6 +3166,7 @@ id alertTitle
 id aligned
 id all
 id allStates
+id altraWideCameraTest
 id always
 id animateToEnd
 id animateToStart
@@ -3203,7 +3215,6 @@ id buttonPanel
 id buttonsTest
 id cache_measures
 id callMeasure
-id cameraTest
 id cancel_button
 id carryVelocity
 id center
@@ -3255,6 +3266,7 @@ id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
 id dialog_button
+id digitizerTest
 id dimensions
 id direct
 id disableHome
@@ -3271,6 +3283,9 @@ id dragRight
 id dragStart
 id dragUp
 id dropdown_menu
+id earpieceButtonImg
+id earpieceCheckImg
+id earpieceTest
 id easeIn
 id easeInOut
 id easeOut
@@ -3308,8 +3323,11 @@ id folding_circles
 id forceTouchTest
 id forever
 id fragment_container_view_tag
+id frontCameraTest
 id frontFlashCheckImg
 id frontFlashTest
+id frontMicrophoneImg
+id frontMicrophoneTest
 id frost
 id fullscreen_header
 id ghost_view
@@ -3350,6 +3368,7 @@ id italic
 id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
+id lCDPixelTest
 id lCDTest
 id labeled
 id layout
@@ -3364,7 +3383,8 @@ id linear
 id listMode
 id list_item
 id logo_img
-id loudSpeakerImg
+id loudSpeakerButtonImg
+id loudSpeakerCheckImg
 id loudSpeakerTest
 id m3_side_sheet
 id marquee
@@ -3393,8 +3413,6 @@ id material_timepicker_view
 id material_value_index
 id matrix
 id message
-id microphoneControlImg
-id microphoneControlTest
 id microphoneTest
 id middle
 id mini
@@ -3487,6 +3505,7 @@ id proximityCheckImg
 id proximitySensorTest
 id radio
 id ratio
+id rearCameraTest
 id rearMicImg
 id rearMicTest
 id rectangles
@@ -3504,6 +3523,7 @@ id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
 id scale
+id scratchView
 id screen
 id scroll
 id scrollIndicatorDown
@@ -3783,9 +3803,12 @@ layout activity_accelerometer_test
 layout activity_bluetooth_test
 layout activity_buttons_test
 layout activity_dashboard
+layout activity_earpiece_test
 layout activity_flash_test
 layout activity_gpstest
+layout activity_lcd_pixel_test
 layout activity_login
+layout activity_loud_speaker_test
 layout activity_microphone_test
 layout activity_nfctest
 layout activity_proximity_sensor
@@ -3875,6 +3898,8 @@ mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+raw notification_songs
+raw song
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description

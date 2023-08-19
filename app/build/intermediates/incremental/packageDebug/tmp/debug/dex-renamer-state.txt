@@ -1,4 +1,4 @@
-#Thu Aug 10 10:17:15 IST 2023
+#Sat Aug 19 18:15:31 IST 2023
 path.4=15/classes.dex
 path.3=12/classes.dex
 path.2=11/classes.dex
@@ -6,17 +6,17 @@ path.1=0/classes.dex
 path.6=classes2.dex
 path.5=9/classes.dex
 path.0=classes.dex
-base.4=D\:\\XcQcMH_Project\\XcQcMHApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
-base.3=D\:\\XcQcMH_Project\\XcQcMHApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
-base.2=D\:\\XcQcMH_Project\\XcQcMHApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
-base.1=D\:\\XcQcMH_Project\\XcQcMHApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.0=D\:\\XcQcMH_Project\\XcQcMHApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.4=E\:\\LatestProjects\\XcQcMHApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
+base.3=E\:\\LatestProjects\\XcQcMHApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
+base.2=E\:\\LatestProjects\\XcQcMHApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
+base.1=E\:\\LatestProjects\\XcQcMHApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.0=E\:\\LatestProjects\\XcQcMHApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
 renamed.6=classes7.dex
 renamed.5=classes6.dex
-base.6=D\:\\XcQcMH_Project\\XcQcMHApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+base.6=E\:\\LatestProjects\\XcQcMHApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
 renamed.4=classes5.dex
-base.5=D\:\\XcQcMH_Project\\XcQcMHApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
+base.5=E\:\\LatestProjects\\XcQcMHApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex

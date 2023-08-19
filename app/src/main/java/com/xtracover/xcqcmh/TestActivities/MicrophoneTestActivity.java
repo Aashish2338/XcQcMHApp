@@ -36,7 +36,7 @@ public class MicrophoneTestActivity extends AppCompatActivity implements View.On
     private static final int RECORDER_SAMPLERATE = 1;
     private Context mContext;
     private UserSession userSession;
-    private ImageView backImg, checkImg, loudSpeakerImg, bottomMicImg, microphoneControlImg, rearMicImg;
+    private ImageView backImg, checkImg, loudSpeakerImg, bottomMicImg, frontMicrophoneImg, rearMicImg;
     private MediaRecorder mRecorder;
     private MediaPlayer mPlayer;
     private static String mFileName = null;
@@ -61,16 +61,15 @@ public class MicrophoneTestActivity extends AppCompatActivity implements View.On
         try {
             backImg = (ImageView) findViewById(R.id.backImg);
             checkImg = (ImageView) findViewById(R.id.checkImg);
-            loudSpeakerImg = (ImageView) findViewById(R.id.loudSpeakerImg);
             bottomMicImg = (ImageView) findViewById(R.id.bottomMicImg);
-            microphoneControlImg = (ImageView) findViewById(R.id.microphoneControlImg);
+            frontMicrophoneImg = (ImageView) findViewById(R.id.frontMicrophoneImg);
             rearMicImg = (ImageView) findViewById(R.id.rearMicImg);
 
             backImg.setOnClickListener(this);
             checkImg.setOnClickListener(this);
             loudSpeakerImg.setOnClickListener(this);
             bottomMicImg.setOnClickListener(this);
-            microphoneControlImg.setOnClickListener(this);
+            frontMicrophoneImg.setOnClickListener(this);
             rearMicImg.setOnClickListener(this);
 
         } catch (Exception exp) {
@@ -102,25 +101,11 @@ public class MicrophoneTestActivity extends AppCompatActivity implements View.On
                 Toast.makeText(mContext, "In progress work!", Toast.LENGTH_SHORT).show();
                 break;
 
-            case R.id.loudSpeakerImg:
-//                ByteBuffer data = ByteBuffer.allocateDirect(SAMPLES_PER_FRAME).order(ByteOrder.nativeOrder());
-//                audioRecord = new AudioRecord()
-//                int audioInputLengthBytes = audioRecord.read(data, SAMPLES_PER_FRAME);
-//                ShortBuffer shortBuffer = data.asShortBuffer();
-//                for (int i = 0; i < audioInputLengthBytes / 2; i++) { // /2 because we need the length in shorts
-//                    short s = shortBuffer.get(i);
-//                    int increased = (int) (s * gain);
-//                    s = (short) Math.min(Math.max(increased, Short.MIN_VALUE), Short.MAX_VALUE);
-//                    shortBuffer.put(i, s);
-//                }
-//                startRecording();
-                break;
-
             case R.id.bottomMicImg:
                 pauseRecording();
                 break;
 
-            case R.id.microphoneControlImg:
+            case R.id.frontMicrophoneImg:
                 pausePlaying();
                 break;
 

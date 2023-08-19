@@ -26,8 +26,11 @@ import com.xtracover.xcqcmh.R;
 import com.xtracover.xcqcmh.TestActivities.AccelerometerTestActivity;
 import com.xtracover.xcqcmh.TestActivities.BluetoothTestActivity;
 import com.xtracover.xcqcmh.TestActivities.ButtonsTestActivity;
+import com.xtracover.xcqcmh.TestActivities.EarpieceTestActivity;
 import com.xtracover.xcqcmh.TestActivities.FlashTestActivity;
 import com.xtracover.xcqcmh.TestActivities.GPSTestActivity;
+import com.xtracover.xcqcmh.TestActivities.LcdPixelTestActivity;
+import com.xtracover.xcqcmh.TestActivities.LoudSpeakerTestActivity;
 import com.xtracover.xcqcmh.TestActivities.MicrophoneTestActivity;
 import com.xtracover.xcqcmh.TestActivities.NFCTestActivity;
 import com.xtracover.xcqcmh.TestActivities.ProximitySensorActivity;
@@ -41,12 +44,16 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
     private UserSession userSession;
     private ImageView refreshImg, battaryImg, checkImg;
     private AppCompatButton startTest_btn;
-    private LinearLayout wifiTest, gpsTest, bluetoothTest, proximitySensorTest, buttonsTest, vibrationTest, accelerometerTest;
-    private LinearLayout microphoneTest, touchTest, cameraTest, flashTest, upperLowerSpeakerTest, headphoneJackTest;
-    private LinearLayout nfcTest, brightnessSensorTest, forceTouchTest, touchIdTest, lCDTest, backlightTest, backlightSpotsTest;
-    private LinearLayout rightAndLeftChannelTest, operatorBlockCheckTest, simCardReaderTest, voiceCallTest, batteryDrainTest;
-    private LinearLayout trueDepthFaceIDTest, burntPixelsTest;
+    private LinearLayout wifiTest, bluetoothTest, proximitySensorTest, buttonsTest, vibrationTest, frontCameraTest;
+    private LinearLayout rearCameraTest, altraWideCameraTest, loudSpeakerTest, microphoneTest;
+    private LinearLayout earpieceTest, lCDTest, lCDPixelTest, digitizerTest;
     private static BluetoothAdapter mBluetoothAdapter;
+
+    // Currently not in use but if we need in case future then we will use it as per required
+    private LinearLayout gpsTest, accelerometerTest, touchTest, forceTouchTest, touchIdTest, flashTest, backlightTest;
+    private LinearLayout backlightSpotsTest, upperLowerSpeakerTest, headphoneJackTest, rightAndLeftChannelTest, nfcTest;
+    private LinearLayout brightnessSensorTest, operatorBlockCheckTest, simCardReaderTest, voiceCallTest, batteryDrainTest;
+    private LinearLayout trueDepthFaceIDTest, burntPixelsTest;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,26 +70,40 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
         checkImg.setOnClickListener(this);
         startTest_btn.setOnClickListener(this);
         wifiTest.setOnClickListener(this);
-        gpsTest.setOnClickListener(this);
         bluetoothTest.setOnClickListener(this);
         proximitySensorTest.setOnClickListener(this);
         buttonsTest.setOnClickListener(this);
         vibrationTest.setOnClickListener(this);
-        accelerometerTest.setOnClickListener(this);
         microphoneTest.setOnClickListener(this);
+        frontCameraTest.setOnClickListener(this);
+        lCDTest.setOnClickListener(this);
+        rearCameraTest.setOnClickListener(this);
+        altraWideCameraTest.setOnClickListener(this);
+        loudSpeakerTest.setOnClickListener(this);
+        earpieceTest.setOnClickListener(this);
+        lCDPixelTest.setOnClickListener(this);
+        digitizerTest.setOnClickListener(this);
+
+        if (userSession.getLCDPixel().equalsIgnoreCase("Pass")) {
+            lCDPixelTest.setBackground(getDrawable(R.drawable.bg_test_drwble_green));
+        } else {
+            lCDPixelTest.setBackground(getDrawable(R.drawable.bg_test_drwble_blue));
+        }
+
+        // Currently not in use but if we need in case future then we will use it as per required
+        gpsTest.setOnClickListener(this);
+        accelerometerTest.setOnClickListener(this);
         touchTest.setOnClickListener(this);
-        cameraTest.setOnClickListener(this);
-        flashTest.setOnClickListener(this);
-        upperLowerSpeakerTest.setOnClickListener(this);
-        headphoneJackTest.setOnClickListener(this);
-        nfcTest.setOnClickListener(this);
-        brightnessSensorTest.setOnClickListener(this);
         forceTouchTest.setOnClickListener(this);
         touchIdTest.setOnClickListener(this);
-        lCDTest.setOnClickListener(this);
+        flashTest.setOnClickListener(this);
         backlightTest.setOnClickListener(this);
         backlightSpotsTest.setOnClickListener(this);
+        upperLowerSpeakerTest.setOnClickListener(this);
+        headphoneJackTest.setOnClickListener(this);
         rightAndLeftChannelTest.setOnClickListener(this);
+        nfcTest.setOnClickListener(this);
+        brightnessSensorTest.setOnClickListener(this);
         operatorBlockCheckTest.setOnClickListener(this);
         simCardReaderTest.setOnClickListener(this);
         voiceCallTest.setOnClickListener(this);
@@ -112,26 +133,39 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
             checkImg = (ImageView) findViewById(R.id.checkImg);
             startTest_btn = (AppCompatButton) findViewById(R.id.startTest_btn);
             wifiTest = (LinearLayout) findViewById(R.id.wifiTest);
-            gpsTest = (LinearLayout) findViewById(R.id.gpsTest);
             bluetoothTest = (LinearLayout) findViewById(R.id.bluetoothTest);
             proximitySensorTest = (LinearLayout) findViewById(R.id.proximitySensorTest);
             buttonsTest = (LinearLayout) findViewById(R.id.buttonsTest);
             vibrationTest = (LinearLayout) findViewById(R.id.vibrationTest);
-            accelerometerTest = (LinearLayout) findViewById(R.id.accelerometerTest);
             microphoneTest = (LinearLayout) findViewById(R.id.microphoneTest);
+            frontCameraTest = (LinearLayout) findViewById(R.id.frontCameraTest);
+            rearCameraTest = (LinearLayout) findViewById(R.id.rearCameraTest);
+            lCDTest = (LinearLayout) findViewById(R.id.lCDTest);
+            altraWideCameraTest = (LinearLayout) findViewById(R.id.altraWideCameraTest);
+            loudSpeakerTest = (LinearLayout) findViewById(R.id.loudSpeakerTest);
+            earpieceTest = (LinearLayout) findViewById(R.id.earpieceTest);
+            lCDPixelTest = (LinearLayout) findViewById(R.id.lCDPixelTest);
+            digitizerTest = (LinearLayout) findViewById(R.id.digitizerTest);
+
+            mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
+            Intent enableBtIntent = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
+            activityResultLauncher.launch(enableBtIntent);
+
+
+            // Currently not in use but if we need in case future then we will use it as per required
+            gpsTest = (LinearLayout) findViewById(R.id.gpsTest);
+            accelerometerTest = (LinearLayout) findViewById(R.id.accelerometerTest);
             touchTest = (LinearLayout) findViewById(R.id.touchTest);
-            cameraTest = (LinearLayout) findViewById(R.id.cameraTest);
-            flashTest = (LinearLayout) findViewById(R.id.flashTest);
-            upperLowerSpeakerTest = (LinearLayout) findViewById(R.id.upperLowerSpeakerTest);
-            headphoneJackTest = (LinearLayout) findViewById(R.id.headphoneJackTest);
-            nfcTest = (LinearLayout) findViewById(R.id.nfcTest);
-            brightnessSensorTest = (LinearLayout) findViewById(R.id.brightnessSensorTest);
             forceTouchTest = (LinearLayout) findViewById(R.id.forceTouchTest);
             touchIdTest = (LinearLayout) findViewById(R.id.touchIdTest);
-            lCDTest = (LinearLayout) findViewById(R.id.lCDTest);
+            flashTest = (LinearLayout) findViewById(R.id.flashTest);
             backlightTest = (LinearLayout) findViewById(R.id.backlightTest);
             backlightSpotsTest = (LinearLayout) findViewById(R.id.backlightSpotsTest);
+            upperLowerSpeakerTest = (LinearLayout) findViewById(R.id.upperLowerSpeakerTest);
+            headphoneJackTest = (LinearLayout) findViewById(R.id.headphoneJackTest);
             rightAndLeftChannelTest = (LinearLayout) findViewById(R.id.rightAndLeftChannelTest);
+            nfcTest = (LinearLayout) findViewById(R.id.nfcTest);
+            brightnessSensorTest = (LinearLayout) findViewById(R.id.brightnessSensorTest);
             operatorBlockCheckTest = (LinearLayout) findViewById(R.id.operatorBlockCheckTest);
             simCardReaderTest = (LinearLayout) findViewById(R.id.simCardReaderTest);
             voiceCallTest = (LinearLayout) findViewById(R.id.voiceCallTest);
@@ -139,30 +173,23 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
             trueDepthFaceIDTest = (LinearLayout) findViewById(R.id.trueDepthFaceIDTest);
             burntPixelsTest = (LinearLayout) findViewById(R.id.burntPixelsTest);
 
-            mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
-
-            Intent enableBtIntent = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
-            activityResultLauncher.launch(enableBtIntent);
-
         } catch (Exception exp) {
             exp.getStackTrace();
         }
     }
 
-    ActivityResultLauncher<Intent> activityResultLauncher = registerForActivityResult(
-            new ActivityResultContracts.StartActivityForResult(),
-            new ActivityResultCallback<ActivityResult>() {
-                @SuppressLint("MissingPermission")
-                @Override
-                public void onActivityResult(ActivityResult result) {
-                    if (result.getResultCode() == Activity.RESULT_OK) {
-                        mBluetoothAdapter.enable();
-                        System.out.println("Request granted - bluetooth is turning on...");
-                    } else {
-                        System.out.println("Request not granted - bluetooth is turning on...");
-                    }
-                }
-            });
+    ActivityResultLauncher<Intent> activityResultLauncher = registerForActivityResult(new ActivityResultContracts.StartActivityForResult(), new ActivityResultCallback<ActivityResult>() {
+        @SuppressLint("MissingPermission")
+        @Override
+        public void onActivityResult(ActivityResult result) {
+            if (result.getResultCode() == Activity.RESULT_OK) {
+                mBluetoothAdapter.enable();
+                System.out.println("Request granted - bluetooth is turning on...");
+            } else {
+                System.out.println("Request not granted - bluetooth is turning on...");
+            }
+        }
+    });
 
     @Override
     public void onClick(View v) {
@@ -189,10 +216,6 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
                 startActivity(new Intent(mContext, WiFiInternetTestActivity.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK));
                 break;
 
-            case R.id.gpsTest:
-                startActivity(new Intent(mContext, GPSTestActivity.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK));
-                break;
-
             case R.id.bluetoothTest:
                 startActivity(new Intent(mContext, BluetoothTestActivity.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK));
                 break;
@@ -209,20 +232,50 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
                 startActivity(new Intent(mContext, VibrationTestActivity.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK));
                 break;
 
-            case R.id.accelerometerTest:
-                startActivity(new Intent(mContext, AccelerometerTestActivity.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK));
+            case R.id.frontCameraTest:
+                Toast.makeText(mContext, "In Progress Front Camera test!", Toast.LENGTH_SHORT).show();
+                break;
+
+            case R.id.rearCameraTest:
+                Toast.makeText(mContext, "In progress Rear Camera test!", Toast.LENGTH_SHORT).show();
+                break;
+
+            case R.id.altraWideCameraTest:
+                Toast.makeText(mContext, "In Progress Altra Wide Camera test!", Toast.LENGTH_SHORT).show();
+                break;
+
+            case R.id.loudSpeakerTest:
+                startActivity(new Intent(mContext, LoudSpeakerTestActivity.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK));
                 break;
 
             case R.id.microphoneTest:
                 startActivity(new Intent(mContext, MicrophoneTestActivity.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK));
                 break;
 
-            case R.id.touchTest:
-                Toast.makeText(mContext, "In Progress Touch test!", Toast.LENGTH_SHORT).show();
+            case R.id.earpieceTest:
+                startActivity(new Intent(mContext, EarpieceTestActivity.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK));
                 break;
 
-            case R.id.cameraTest:
-                Toast.makeText(mContext, "In Progress Camera test!", Toast.LENGTH_SHORT).show();
+            case R.id.lCDTest:
+                Toast.makeText(mContext, "In progress LCD Glass test!", Toast.LENGTH_SHORT).show();
+                break;
+
+            case R.id.lCDPixelTest:
+                startActivity(new Intent(mContext, LcdPixelTestActivity.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK));
+                break;
+
+            case R.id.digitizerTest:
+                Toast.makeText(mContext, "In Progress Digitizer test!", Toast.LENGTH_SHORT).show();
+                break;
+
+
+            // Currently not in use but if we need in case future then we will use it as per required
+            case R.id.gpsTest:
+                startActivity(new Intent(mContext, GPSTestActivity.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK));
+                break;
+
+            case R.id.accelerometerTest:
+                startActivity(new Intent(mContext, AccelerometerTestActivity.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK));
                 break;
 
             case R.id.flashTest:
@@ -241,6 +294,10 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
                 startActivity(new Intent(mContext, NFCTestActivity.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK));
                 break;
 
+            case R.id.touchTest:
+                Toast.makeText(mContext, "In Progress Touch test!", Toast.LENGTH_SHORT).show();
+                break;
+
             case R.id.brightnessSensorTest:
                 Toast.makeText(mContext, "In Progress Brightness test!", Toast.LENGTH_SHORT).show();
                 break;
@@ -251,10 +308,6 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
 
             case R.id.touchIdTest:
                 Toast.makeText(mContext, "In progress touch id test!", Toast.LENGTH_SHORT).show();
-                break;
-
-            case R.id.lCDTest:
-                Toast.makeText(mContext, "In progress LCD test!", Toast.LENGTH_SHORT).show();
                 break;
 
             case R.id.backlightTest:

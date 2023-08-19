@@ -82,55 +82,6 @@
             android:orientation="vertical">
 
             <RelativeLayout
-                android:id="@+id/loudSpeakerTest"
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:layout_margin="8dp"
-                android:background="@drawable/bg_test_drwble_blue"
-                android:gravity="center"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:id="@+id/powerButtonImg"
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
-                    android:layout_alignParentStart="true"
-                    android:layout_centerVertical="true"
-                    android:layout_gravity="center"
-                    android:layout_marginLeft="16dp"
-                    android:scaleType="fitXY"
-                    app:srcCompat="@drawable/scan_loudspeakerclear" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_centerVertical="true"
-                    android:layout_gravity="center"
-                    android:layout_marginLeft="16dp"
-                    android:layout_toRightOf="@+id/powerButtonImg"
-                    android:fontFamily="sans-serif-medium"
-                    android:gravity="center"
-                    android:text="Loud Speaker"
-                    android:textAlignment="center"
-                    android:textColor="@color/white"
-                    android:textSize="18sp"
-                    android:textStyle="normal" />
-
-                <ImageView
-                    android:id="@+id/loudSpeakerImg"
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
-                    android:layout_alignParentRight="true"
-                    android:layout_centerVertical="true"
-                    android:layout_gravity="center"
-                    android:layout_marginRight="16dp"
-                    android:scaleType="fitXY"
-                    android:visibility="invisible"
-                    app:srcCompat="@drawable/check_mark" />
-
-            </RelativeLayout>
-
-            <RelativeLayout
                 android:id="@+id/bottomMicTest"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
@@ -180,7 +131,7 @@
             </RelativeLayout>
 
             <RelativeLayout
-                android:id="@+id/microphoneControlTest"
+                android:id="@+id/frontMicrophoneTest"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_margin="8dp"
@@ -208,14 +159,14 @@
                     android:layout_toRightOf="@+id/volumeDownImg"
                     android:fontFamily="sans-serif-medium"
                     android:gravity="center"
-                    android:text="Microphone Control"
+                    android:text="Front Mic"
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:textSize="18sp"
                     android:textStyle="normal" />
 
                 <ImageView
-                    android:id="@+id/microphoneControlImg"
+                    android:id="@+id/frontMicrophoneImg"
                     android:layout_width="35dp"
                     android:layout_height="35dp"
                     android:layout_alignParentRight="true"
