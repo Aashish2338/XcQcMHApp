@@ -72,6 +72,9 @@
         android:theme="@style/Theme.XcQcMHApp"
         android:usesCleartextTraffic="true" >
         <activity
+            android:name="com.xtracover.xcqcmh.TestActivities.LcdGlassTestActivity"
+            android:exported="false" />
+        <activity
             android:name="com.xtracover.xcqcmh.TestActivities.LcdPixelTestActivity"
             android:exported="false" />
         <activity

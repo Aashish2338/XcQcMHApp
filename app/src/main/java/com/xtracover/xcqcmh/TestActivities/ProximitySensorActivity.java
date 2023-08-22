@@ -65,9 +65,13 @@ public class ProximitySensorActivity extends AppCompatActivity implements View.O
                     if (proximityNearAway == true) {
                         proximityCheckImg.setVisibility(View.VISIBLE);
                         Toast.makeText(mContext, "Proximity sensor test pass!", Toast.LENGTH_SHORT).show();
+                        userSession.setProximity("1");
+                        onBackPressed();
                     } else {
                         proximityCheckImg.setVisibility(View.INVISIBLE);
                         Toast.makeText(mContext, "Proximity sensor test fail!", Toast.LENGTH_SHORT).show();
+                        userSession.setProximity("0");
+                        onBackPressed();
                     }
                 }
             }.start();
@@ -113,8 +117,6 @@ public class ProximitySensorActivity extends AppCompatActivity implements View.O
         }
     }
 
-    // calling the sensor event class to detect
-    // the change in data when sensor starts working.
     SensorEventListener proximitySensorEventListener = new SensorEventListener() {
         @Override
         public void onAccuracyChanged(Sensor sensor, int accuracy) {
@@ -123,11 +125,10 @@ public class ProximitySensorActivity extends AppCompatActivity implements View.O
 
         @Override
         public void onSensorChanged(SensorEvent event) {
-            // check if the sensor type is proximity sensor.
             if (event.sensor.getType() == Sensor.TYPE_PROXIMITY) {
                 if (event.values[0] == 0) {
+                    System.out.println("Near");
                     proximityNearAway = true;
-                    Toast.makeText(mContext, "Near", Toast.LENGTH_SHORT).show();
                 } else {
                     System.out.println("Away");
                     proximityNearAway = false;

@@ -77,7 +77,7 @@ public class UserSession {
     }
 
     public String getEmpCode() {
-        return pref.getString("EmpCode", " ");
+        return pref.getString("EmpCode", "");
     }
 
     public void setUserName(String UserId) {
@@ -86,7 +86,115 @@ public class UserSession {
     }
 
     public String getUserName() {
-        return pref.getString("UserId", " ");
+        return pref.getString("UserId", "");
+    }
+
+    public void setWiFi(String wifi) {
+        editor.putString("wifi", wifi);
+        editor.commit();
+    }
+
+    public String getWiFi() {
+        return pref.getString("wifi", "");
+    }
+
+    public void setBluetooth(String bluetooth) {
+        editor.putString("bluetooth", bluetooth);
+        editor.commit();
+    }
+
+    public String getBluetooth() {
+        return pref.getString("bluetooth", "");
+    }
+
+    public void setProximity(String proximity) {
+        editor.putString("proximity", proximity);
+        editor.commit();
+    }
+
+    public String getProximity() {
+        return pref.getString("proximity", "");
+    }
+
+    public void setKeysButtons(String keysButtons) {
+        editor.putString("keysButtons", keysButtons);
+        editor.commit();
+    }
+
+    public String getKeysButtons() {
+        return pref.getString("keysButtons", "");
+    }
+
+    public void setVibration(String vibration) {
+        editor.putString("vibration", vibration);
+        editor.commit();
+    }
+
+    public String getVibration() {
+        return pref.getString("vibration", "");
+    }
+
+    public void setFrontCamera(String frontCamera) {
+        editor.putString("frontCamera", frontCamera);
+        editor.commit();
+    }
+
+    public String getFrontCamera() {
+        return pref.getString("frontCamera", "");
+    }
+
+    public void setRearCamera(String rearCamera) {
+        editor.putString("rearCamera", rearCamera);
+        editor.commit();
+    }
+
+    public String getRearCamera() {
+        return pref.getString("rearCamera", "");
+    }
+
+    public void setAltraWideCamera(String altraWideCamera) {
+        editor.putString("altraWideCamera", altraWideCamera);
+        editor.commit();
+    }
+
+    public String getAltraWideCamera() {
+        return pref.getString("altraWideCamera", "");
+    }
+
+    public void setLoudSpeaker(String loudSpeaker) {
+        editor.putString("loudSpeaker", loudSpeaker);
+        editor.commit();
+    }
+
+    public String getLoudSpeaker() {
+        return pref.getString("loudSpeaker", "");
+    }
+
+    public void setMicrophone(String microphone) {
+        editor.putString("microphone", microphone);
+        editor.commit();
+    }
+
+    public String getMicrophone() {
+        return pref.getString("microphone", "");
+    }
+
+    public void setEarpiece(String earpiece) {
+        editor.putString("earpiece", earpiece);
+        editor.commit();
+    }
+
+    public String getEarpiece() {
+        return pref.getString("earpiece", "");
+    }
+
+    public void setLCDGlass(String lCDGlass) {
+        editor.putString("lCDGlass", lCDGlass);
+        editor.commit();
+    }
+
+    public String getLCDGlass() {
+        return pref.getString("lCDGlass", "");
     }
 
     public void setLCDPixel(String lCDPixel) {
@@ -95,6 +203,15 @@ public class UserSession {
     }
 
     public String getLCDPixel() {
-        return pref.getString("LCDPixel", " ");
+        return pref.getString("LCDPixel", "");
+    }
+
+    public void setDigitizer(String digitizer) {
+        editor.putString("digitizer", digitizer);
+        editor.commit();
+    }
+
+    public String getDigitizer() {
+        return pref.getString("digitizer", "");
     }
 }

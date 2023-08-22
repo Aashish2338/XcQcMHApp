@@ -6,11 +6,4 @@
     android:background="@color/white"
     tools:context=".TestActivities.LcdPixelTestActivity">
 
-    <com.cooltechworks.views.ScratchImageView
-        android:id="@+id/scratchView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_centerInParent="true"
-        android:background="@color/white"
-        android:src="@drawable/pixel_lcd_color" />
 </RelativeLayout>

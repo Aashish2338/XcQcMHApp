@@ -29,8 +29,8 @@ public class ButtonsTestActivity extends AppCompatActivity implements View.OnCli
     private ImageView backImg, checkImg, powerButtonCheckImg, volumeUpCheckImg, volumeDownCheckImg;
     private ImageView backButtonCheckImg, autoSwitchButtonCheckImg;
     private AppCompatButton retryTest_btn;
-    private RelativeLayout powerButtonTest, volumeUpTest, volumeDownTest, backButtonTest, autoSwitchButtonTest;
     private boolean recentPressed = false;
+    private String pressedButton = "";
     private ScreenStateReceiver mReceiver;
 
     @Override
@@ -64,11 +64,6 @@ public class ButtonsTestActivity extends AppCompatActivity implements View.OnCli
             backButtonCheckImg = (ImageView) findViewById(R.id.backButtonCheckImg);
             autoSwitchButtonCheckImg = (ImageView) findViewById(R.id.autoSwitchButtonCheckImg);
             retryTest_btn = (AppCompatButton) findViewById(R.id.retryTest_btn);
-            powerButtonTest = (RelativeLayout) findViewById(R.id.powerButtonTest);
-            volumeUpTest = (RelativeLayout) findViewById(R.id.volumeUpTest);
-            volumeDownTest = (RelativeLayout) findViewById(R.id.volumeDownTest);
-            backButtonTest = (RelativeLayout) findViewById(R.id.backButtonTest);
-            autoSwitchButtonTest = (RelativeLayout) findViewById(R.id.autoSwitchButtonTest);
 
         } catch (Exception exp) {
             exp.getStackTrace();
@@ -141,21 +136,25 @@ public class ButtonsTestActivity extends AppCompatActivity implements View.OnCli
                 Log.d("Test1", "Back button pressed!");
                 System.out.println("Back Key Result :- " + "Back button pressed!");
                 backButtonCheckImg.setVisibility(View.VISIBLE);
+                pressedButton = "Back";
             } else if (keyCode == KeyEvent.KEYCODE_VOLUME_UP) {
                 recentPressed = true;
                 Log.d("Test2", "VolumeUp");
                 System.out.println("Volume Up Button Result :- " + "VolumeUp");
                 volumeUpCheckImg.setVisibility(View.VISIBLE);
+                pressedButton = "Back" + "VolumeUp";
             } else if (keyCode == KeyEvent.KEYCODE_VOLUME_DOWN) {
                 recentPressed = true;
                 Log.d("Test3", "VolumeDown");
                 System.out.println("Volume Down Button Result :- " + "VolumeDown");
                 volumeDownCheckImg.setVisibility(View.VISIBLE);
+                pressedButton = "Back" + "VolumeUp" + "VolumeDown";
             } else if (keyCode == KeyEvent.KEYCODE_POWER) {
                 recentPressed = true;
                 Log.d("Tes4t", "Power_Key");
                 System.out.println("Power Key Button Result :- " + "Power_Key");
                 powerButtonCheckImg.setVisibility(View.VISIBLE);
+                pressedButton = "Back" + "VolumeUp" + "VolumeDown" + "PowerKey";
             }
         } catch (Exception exp) {
             exp.getStackTrace();
@@ -172,6 +171,7 @@ public class ButtonsTestActivity extends AppCompatActivity implements View.OnCli
                 Log.d("Home_Key", "Home_Key pressed!");
                 System.out.println("Home_Key Result :- " + "Home_Key pressed!");
                 autoSwitchButtonCheckImg.setVisibility(View.VISIBLE);
+                pressedButton = "Back" + "VolumeUp" + "VolumeDown" + "PowerKey" + "HomeKey";
             }
         } catch (Exception exp) {
             exp.getStackTrace();
@@ -203,6 +203,18 @@ public class ButtonsTestActivity extends AppCompatActivity implements View.OnCli
         } else {
             super.onBackPressed();
         }
+    }
+
+    @Override
+    protected void onResume() {
+        if (pressedButton.equalsIgnoreCase("Back" + "VolumeUp" + "VolumeDown" + "PowerKey" + "HomeKey")) {
+            userSession.setKeysButtons("1");
+            onBackPressed();
+        } else {
+            userSession.setKeysButtons("0");
+            onBackPressed();
+        }
+        super.onResume();
     }
 
     @Override

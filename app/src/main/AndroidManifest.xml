@@ -67,6 +67,9 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name=".TestActivities.LcdGlassTestActivity"
+            android:exported="false" />
+        <activity
             android:name=".TestActivities.LcdPixelTestActivity"
             android:exported="false" />
         <activity

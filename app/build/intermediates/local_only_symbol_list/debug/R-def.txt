@@ -1,5 +1,8 @@
 R_DEF: Internal format may change without notice
 local
+color Blue
+color Green
+color Red
 color bg_color
 color bg_color_green
 color bg_color_red
@@ -107,6 +110,7 @@ id brightnessSensorTest
 id burntPixelsTest
 id buttonsTest
 id checkImg
+id descriptionTxt
 id digitizerTest
 id earpieceButtonImg
 id earpieceCheckImg
@@ -142,6 +146,7 @@ id model
 id nfcButtonImg
 id nfcCheckImg
 id nfcTest
+id noVibrate
 id operatorBlockCheckTest
 id password
 id passwordLayoutP
@@ -158,10 +163,11 @@ id rearMicTest
 id refreshImg
 id retryTest_btn
 id rightAndLeftChannelTest
-id scratchView
+id scratchViews
 id simCardReaderTest
 id startTest_btn
 id text_tvP
+id titleTxt
 id touchIdTest
 id touchTest
 id trueDepthFaceIDTest
@@ -180,6 +186,7 @@ id volumeUpImg
 id volumeUpTest
 id wifiCheckImg
 id wifiTest
+id yesVibrate
 layout activity_accelerometer_test
 layout activity_bluetooth_test
 layout activity_buttons_test
@@ -187,6 +194,7 @@ layout activity_dashboard
 layout activity_earpiece_test
 layout activity_flash_test
 layout activity_gpstest
+layout activity_lcd_glass_test
 layout activity_lcd_pixel_test
 layout activity_login
 layout activity_loud_speaker_test
@@ -198,6 +206,7 @@ layout activity_splash_screen
 layout activity_vibration_test
 layout activity_wi_fi_internet_test
 layout google_progress_bar_item
+layout vibrate_item_layout
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
@@ -206,5 +215,6 @@ raw song
 string app_name
 string app_version_1_00
 style Theme.XcQcMHApp
+style animation
 xml backup_rules
 xml data_extraction_rules

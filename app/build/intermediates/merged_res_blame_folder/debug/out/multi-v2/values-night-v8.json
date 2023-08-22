@@ -40,20 +40,20 @@
                 {
                     "source": "E:\\LatestProjects\\XcQcMHApp\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "100",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "796"
+                        "startLines": "2,16",
+                        "startColumns": "4,4",
+                        "startOffsets": "100,802",
+                        "endLines": "14,19",
+                        "endColumns": "12,12",
+                        "endOffsets": "796,997"
                     },
                     "to": {
-                        "startLines": "34",
-                        "startColumns": "4",
-                        "startOffsets": "3448",
-                        "endLines": "46",
-                        "endColumns": "12",
-                        "endOffsets": "4023"
+                        "startLines": "34,56",
+                        "startColumns": "4,4",
+                        "startOffsets": "3448,5118",
+                        "endLines": "46,59",
+                        "endColumns": "12,12",
+                        "endOffsets": "4023,5313"
                     }
                 }
             ]

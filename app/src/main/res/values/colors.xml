@@ -21,4 +21,8 @@
     <color name="btn_color">#009bfc</color>
     <color name="bgc_color">#ffffff</color>
 
+    <color name="Red">#FF0000</color>
+    <color name="Green">#00FF00</color>
+    <color name="Blue">#0000FF</color>
+
 </resources>

@@ -104,7 +104,6 @@ public class LoudSpeakerTestActivity extends AppCompatActivity implements View.O
             checkImg = (ImageView) findViewById(R.id.checkImg);
             loudSpeakerCheckImg = (ImageView) findViewById(R.id.loudSpeakerCheckImg);
 
-
         } catch (Exception exp) {
             exp.getStackTrace();
         }
