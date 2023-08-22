@@ -52,6 +52,7 @@ import com.xtracover.xcqcmh.TestActivities.LcdPixelTestActivity;
 import com.xtracover.xcqcmh.TestActivities.MicrophoneTestActivity;
 import com.xtracover.xcqcmh.TestActivities.NFCTestActivity;
 import com.xtracover.xcqcmh.TestActivities.ProximitySensorActivity;
+import com.xtracover.xcqcmh.TestActivities.RearCameraTestActivity;
 import com.xtracover.xcqcmh.Utilities.UserSession;
 
 import java.text.DecimalFormat;
@@ -274,7 +275,7 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
                 break;
 
             case R.id.rearCameraTest:
-                Toast.makeText(mContext, "In progress Rear Camera test!", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(mContext, RearCameraTestActivity.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK));
                 break;
 
             case R.id.altraWideCameraTest:

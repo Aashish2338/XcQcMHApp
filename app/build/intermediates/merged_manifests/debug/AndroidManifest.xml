@@ -35,6 +35,7 @@
     <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
 
     <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.any" />
     <uses-feature android:name="android.hardware.camera2.full" />
     <uses-feature
         android:name="android.hardware.camera.front"
@@ -68,9 +69,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/Theme.XcQcMHApp"
         android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.xtracover.xcqcmh.TestActivities.RearCameraTestActivity"
+            android:exported="false" />
         <activity
             android:name="com.xtracover.xcqcmh.TestActivities.LcdGlassTestActivity"
             android:exported="false" />

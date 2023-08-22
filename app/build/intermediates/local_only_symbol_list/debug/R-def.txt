@@ -31,6 +31,7 @@ drawable bg_test_drwble_red
 drawable bluetooth
 drawable brightness
 drawable camera
+drawable capture_button
 drawable check_circle
 drawable check_mark
 drawable deadpixels
@@ -109,6 +110,7 @@ id bottomMicTest
 id brightnessSensorTest
 id burntPixelsTest
 id buttonsTest
+id camera_capture_button
 id checkImg
 id descriptionTxt
 id digitizerTest
@@ -133,6 +135,7 @@ id gpsTest
 id headphoneJackTest
 id imageView1
 id imge_log
+id iv_capture
 id lCDPixelTest
 id lCDTest
 id lightSpotCheckImg
@@ -201,6 +204,7 @@ layout activity_loud_speaker_test
 layout activity_microphone_test
 layout activity_nfctest
 layout activity_proximity_sensor
+layout activity_rear_camera_test
 layout activity_screen_touch
 layout activity_splash_screen
 layout activity_vibration_test

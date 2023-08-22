@@ -32,6 +32,10 @@
         "source": "com.xtracover.xcqcmh.app-main-33:/drawable/scan_pixelfreescreen.png"
     },
     {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_capture_button.xml.flat",
+        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/capture_button.xml"
+    },
+    {
         "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_scan_gyroscopesensor.png.flat",
         "source": "com.xtracover.xcqcmh.app-main-33:/drawable/scan_gyroscopesensor.png"
     },
@@ -356,12 +360,12 @@
         "source": "com.xtracover.xcqcmh.app-main-33:/raw/song.mp3"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/layout_google_progress_bar_item.xml.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/layout/google_progress_bar_item.xml"
-    },
-    {
         "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_scan_devicecharging.png.flat",
         "source": "com.xtracover.xcqcmh.app-main-33:/drawable/scan_devicecharging.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/layout_google_progress_bar_item.xml.flat",
+        "source": "com.xtracover.xcqcmh.app-main-33:/layout/google_progress_bar_item.xml"
     },
     {
         "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_xtracover_logo_new.png.flat",
@@ -402,6 +406,10 @@
     {
         "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_dial_pad.png.flat",
         "source": "com.xtracover.xcqcmh.app-main-33:/drawable/dial_pad.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/layout_activity_rear_camera_test.xml.flat",
+        "source": "com.xtracover.xcqcmh.app-main-33:/layout/activity_rear_camera_test.xml"
     },
     {
         "merged": "com.xtracover.xcqcmh.app-merged_res-31:/mipmap-hdpi_ic_launcher_round.png.flat",
