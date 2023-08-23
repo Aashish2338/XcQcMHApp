@@ -110,7 +110,7 @@ id bottomMicTest
 id brightnessSensorTest
 id burntPixelsTest
 id buttonsTest
-id camera_capture_button
+id cameraCaptureButton
 id checkImg
 id descriptionTxt
 id digitizerTest
@@ -135,7 +135,7 @@ id gpsTest
 id headphoneJackTest
 id imageView1
 id imge_log
-id iv_capture
+id ivCapture
 id lCDPixelTest
 id lCDTest
 id lightSpotCheckImg
@@ -169,6 +169,7 @@ id rightAndLeftChannelTest
 id scratchViews
 id simCardReaderTest
 id startTest_btn
+id surfaceView
 id text_tvP
 id titleTxt
 id touchIdTest
@@ -196,6 +197,7 @@ layout activity_buttons_test
 layout activity_dashboard
 layout activity_earpiece_test
 layout activity_flash_test
+layout activity_front_camera_test
 layout activity_gpstest
 layout activity_lcd_glass_test
 layout activity_lcd_pixel_test

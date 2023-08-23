@@ -1,418 +1,426 @@
 [
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/mipmap-xxhdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/xml_data_extraction_rules.xml.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\layout_activity_accelerometer_test.xml.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\layout\\activity_accelerometer_test.xml"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_scan_digitizer.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\scan_digitizer.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/layout_activity_microphone_test.xml.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/layout/activity_microphone_test.xml"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_user.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\user.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_user.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/user.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_simcard.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\simcard.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_refresh.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/refresh.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_scan_microphone.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\scan_microphone.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_scan_pixelfreescreen.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/scan_pixelfreescreen.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_xtracover_logo_new.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\xtracover_logo_new.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_capture_button.xml.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/capture_button.xml"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_fingerprint.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\fingerprint.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_scan_gyroscopesensor.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/scan_gyroscopesensor.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_scan_vibrate.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\scan_vibrate.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/layout_activity_screen_touch.xml.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/layout/activity_screen_touch.xml"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_scan_frontcamera.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\scan_frontcamera.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_tap.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/tap.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_dial_pad.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\dial_pad.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_low_volume.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/low_volume.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\layout_activity_microphone_test.xml.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\layout\\activity_microphone_test.xml"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_check_mark.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/check_mark.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\layout_activity_splash_screen.xml.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\layout\\activity_splash_screen.xml"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/layout_activity_accelerometer_test.xml.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/layout/activity_accelerometer_test.xml"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\raw_notification_songs.mp3.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\raw\\notification_songs.mp3"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_headphone_symbol.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/headphone_symbol.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\layout_activity_flash_test.xml.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\layout\\activity_flash_test.xml"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_pixel_lcd_color.xml.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/pixel_lcd_color.xml"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_scan_wifi.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\scan_wifi.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/layout_activity_loud_speaker_test.xml.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/layout/activity_loud_speaker_test.xml"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_camera.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\camera.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_scan_loudspeakerclear.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/scan_loudspeakerclear.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_volume_up.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\volume_up.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/mipmap-hdpi/ic_launcher.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_scan_screen.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\scan_screen.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/mipmap-xhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_capture_button.xml.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\capture_button.xml"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_microphone.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/microphone.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_scratch_lcd_color.xml.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\scratch_lcd_color.xml"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_extracover_logo.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/extracover_logo.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_low_volume.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\low_volume.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_simcard.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/simcard.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_scan_flashtorch.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\scan_flashtorch.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_scratch_lcd_color.xml.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/scratch_lcd_color.xml"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_check_circle.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\check_circle.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/layout_activity_lcd_pixel_test.xml.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/layout/activity_lcd_pixel_test.xml"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_start_test_btn_bg.xml.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\start_test_btn_bg.xml"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_check_circle.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/check_circle.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\layout_activity_screen_touch.xml.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\layout\\activity_screen_touch.xml"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_operator.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/operator.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_scan_powerbutton.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\scan_powerbutton.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/mipmap-xhdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_heart.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\heart.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/layout_activity_proximity_sensor.xml.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/layout/activity_proximity_sensor.xml"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_scan_battery.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\scan_battery.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/layout_activity_wi_fi_internet_test.xml.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/layout/activity_wi_fi_internet_test.xml"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/layout_activity_bluetooth_test.xml.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/layout/activity_bluetooth_test.xml"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_scan_loudspeakerclear.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\scan_loudspeakerclear.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/layout_activity_earpiece_test.xml.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/layout/activity_earpiece_test.xml"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_bg_test_drwble_red.xml.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\bg_test_drwble_red.xml"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/layout_vibrate_item_layout.xml.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/layout/vibrate_item_layout.xml"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\layout_activity_dashboard.xml.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\layout\\activity_dashboard.xml"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/layout_activity_gpstest.xml.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/layout/activity_gpstest.xml"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\layout_activity_gpstest.xml.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\layout\\activity_gpstest.xml"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_scan_wifi.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/scan_wifi.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_bluetooth.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/bluetooth.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_bg_test_drwble_green.xml.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\bg_test_drwble_green.xml"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_back.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/back.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\layout_activity_rear_camera_test.xml.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\layout\\activity_rear_camera_test.xml"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_bg_test_drwble_red.xml.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/bg_test_drwble_red.xml"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_operator.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\operator.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_scan_powerbutton.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/scan_powerbutton.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/layout_activity_vibration_test.xml.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/layout/activity_vibration_test.xml"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_pixel_lcd_color.xml.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\pixel_lcd_color.xml"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_scan_microphone.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/scan_microphone.png"
+        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/layout_activity_front_camera_test.xml.flat",
+        "source": "com.xtracover.xcqcmh.app-main-33:/layout/activity_front_camera_test.xml"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_heart.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/heart.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\layout_activity_buttons_test.xml.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\layout\\activity_buttons_test.xml"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_bg_test_drwble_green.xml.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/bg_test_drwble_green.xml"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_scan_light.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\scan_light.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/layout_activity_lcd_glass_test.xml.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/layout/activity_lcd_glass_test.xml"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_check_mark.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\check_mark.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/xml_backup_rules.xml.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_extracover_logo.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\extracover_logo.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_volume_up.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/volume_up.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_scan_camera.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\scan_camera.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_deadpixels.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/deadpixels.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_scan_homebutton.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\scan_homebutton.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_scan_battery.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/scan_battery.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\layout_activity_vibration_test.xml.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\layout\\activity_vibration_test.xml"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_home.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/home.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_scan_vibrate.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/scan_vibrate.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_face_scan.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\face_scan.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/layout_activity_login.xml.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/layout/activity_login.xml"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_padlock.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\padlock.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_padlock.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/padlock.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_scan_headphonejack.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\scan_headphonejack.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_back_arrow.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/back_arrow.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\layout_activity_earpiece_test.xml.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\layout\\activity_earpiece_test.xml"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/raw_notification_songs.mp3.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/raw/notification_songs.mp3"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_phone_call.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\phone_call.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_camera.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/camera.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_tap.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\tap.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_bg_test_drwble_blue.xml.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/bg_test_drwble_blue.xml"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\mipmap-xhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_battery.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/battery.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_scan_proxomity.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\scan_proxomity.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_scan_light.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/scan_light.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_back.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\back.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_phone_call.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/phone_call.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_bg_test_drwble_blue.xml.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\bg_test_drwble_blue.xml"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_scan_rearcamera.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/scan_rearcamera.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_scan_backlight.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\scan_backlight.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/mipmap-mdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\layout_activity_wi_fi_internet_test.xml.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\layout\\activity_wi_fi_internet_test.xml"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_xcqc_new_logo.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\xcqc_new_logo.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/layout_activity_splash_screen.xml.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/layout/activity_splash_screen.xml"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_deadpixels.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\deadpixels.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_scan_devicecharging.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\scan_devicecharging.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_scan_proxomity.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/scan_proxomity.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_home.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\home.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/layout_activity_buttons_test.xml.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/layout/activity_buttons_test.xml"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/layout_activity_dashboard.xml.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/layout/activity_dashboard.xml"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_back_arrow.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\back_arrow.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_brightness.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/brightness.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_scan_gyroscopesensor.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\scan_gyroscopesensor.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_scan_screen.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/scan_screen.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\layout\\activity_login.xml"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_face_scan.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/face_scan.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_scan_frontcamera.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/scan_frontcamera.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\layout_google_progress_bar_item.xml.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\layout\\google_progress_bar_item.xml"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_report_point.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/report_point.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\layout_activity_bluetooth_test.xml.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\layout\\activity_bluetooth_test.xml"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_scan_camera.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/scan_camera.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_scan_pixelfreescreen.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\scan_pixelfreescreen.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_scan_homebutton.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/scan_homebutton.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_scan_earphone.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\scan_earphone.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_bluetooth.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\bluetooth.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_scan_nfc.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/scan_nfc.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\layout_activity_lcd_pixel_test.xml.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\layout\\activity_lcd_pixel_test.xml"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/layout_activity_nfctest.xml.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/layout/activity_nfctest.xml"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/layout_activity_flash_test.xml.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/layout/activity_flash_test.xml"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_report_point.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\report_point.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/mipmap-mdpi/ic_launcher.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\raw_song.mp3.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\raw\\song.mp3"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_scan_digitizer.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/scan_digitizer.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\layout_activity_proximity_sensor.xml.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\layout\\activity_proximity_sensor.xml"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_scan_headphonejack.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/scan_headphonejack.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_scan_nfc.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\scan_nfc.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_scan_ledflash.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/scan_ledflash.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_scan_rearcamera.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\scan_rearcamera.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_scan_backlight.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/scan_backlight.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_scan_earphone.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/scan_earphone.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/raw_song.mp3.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/raw/song.mp3"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_scan_devicecharging.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/scan_devicecharging.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\layout_activity_lcd_glass_test.xml.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\layout\\activity_lcd_glass_test.xml"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/layout_google_progress_bar_item.xml.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/layout/google_progress_bar_item.xml"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_scan_ledflash.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\scan_ledflash.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_xtracover_logo_new.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/xtracover_logo_new.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\layout_activity_nfctest.xml.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\layout\\activity_nfctest.xml"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_scan_gps.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/scan_gps.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_microphone.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\microphone.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_brightness.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\brightness.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_fingerprint.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/fingerprint.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_xcqc_new_logo.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/xcqc_new_logo.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_start_test_btn_bg.xml.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/start_test_btn_bg.xml"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_headphone_symbol.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\headphone_symbol.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/mipmap-hdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_scan_flashtorch.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/scan_flashtorch.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\layout_activity_loud_speaker_test.xml.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\layout\\activity_loud_speaker_test.xml"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_battery.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\battery.png"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/drawable_dial_pad.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/drawable/dial_pad.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_scan_gps.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\scan_gps.png"
     },
     {
         "merged": "com.xtracover.xcqcmh.app-merged_res-31:/layout_activity_rear_camera_test.xml.flat",
         "source": "com.xtracover.xcqcmh.app-main-33:/layout/activity_rear_camera_test.xml"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_refresh.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\refresh.png"
+    },
+    {
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\layout_vibrate_item_layout.xml.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\layout\\vibrate_item_layout.xml"
     }
 ]

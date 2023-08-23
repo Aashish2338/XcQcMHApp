@@ -84,7 +84,8 @@
         android:fontFamily="sans-serif-medium"
         android:text="Retry"
         android:textColor="@color/white"
-        android:textStyle="normal" />
+        android:textStyle="normal"
+        android:visibility="gone" />
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"

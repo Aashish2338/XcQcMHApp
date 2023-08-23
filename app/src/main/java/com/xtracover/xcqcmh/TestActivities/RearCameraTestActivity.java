@@ -1,38 +1,27 @@
 package com.xtracover.xcqcmh.TestActivities;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.app.ProgressDialog;
 import android.content.Context;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.graphics.PointF;
-import android.hardware.Camera;
-import android.media.MediaScannerConnection;
 import android.net.Uri;
-import android.os.AsyncTask;
 import android.os.Bundle;
-import android.os.Environment;
-import android.util.Log;
-import android.view.Display;
-import android.view.KeyEvent;
-import android.view.SurfaceHolder;
+import android.os.CountDownTimer;
 import android.view.SurfaceView;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.xtracover.xcqcmh.R;
+import com.xtracover.xcqcmh.Utilities.FrontCameraPreview;
+import com.xtracover.xcqcmh.Utilities.RearCameraPreview;
 import com.xtracover.xcqcmh.Utilities.UserSession;
-
-import java.io.File;
-import java.io.FileOutputStream;
-import java.util.Calendar;
 
 public class RearCameraTestActivity extends AppCompatActivity {
 
     private Context mContext;
     private UserSession userSession;
+    private SurfaceView surfaceView;
+    private ImageView ivCapture;
+    private RearCameraPreview cameraPreview;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +29,69 @@ public class RearCameraTestActivity extends AppCompatActivity {
         setContentView(R.layout.activity_rear_camera_test);
         mContext = this;
         userSession = new UserSession(mContext);
+        getLayoutUiIdFinds();
 
+        getCountFrontCameraTest();
+
+    }
+
+    private void getCountFrontCameraTest() {
+        try {
+            new CountDownTimer(5000, 1000) {
+
+                @Override
+                public void onTick(long millisUntilFinished) {
+                    cameraPreview = new RearCameraPreview(mContext, surfaceView);
+                    cameraPreview.init();
+                }
+
+                @Override
+                public void onFinish() {
+                    setRearCameraImage();
+                    if (userSession.getFrontCamera().equalsIgnoreCase("1")) {
+                        userSession.setRearCamera("1");
+                        onBackPressed();
+                    } else if (userSession.getFrontCamera().equalsIgnoreCase("0")) {
+                        userSession.setRearCamera("0");
+                        onBackPressed();
+                    } else {
+                        userSession.setRearCamera("-1");
+                        onBackPressed();
+                    }
+                }
+            }.start();
+        } catch (Exception exp) {
+            exp.getStackTrace();
+        }
+    }
+
+    private void setRearCameraImage() {
+        try {
+            if (!userSession.getRearCameraImage().equalsIgnoreCase("")) {
+                surfaceView.setVisibility(View.GONE);
+                ivCapture.setVisibility(View.VISIBLE);
+                ivCapture.setImageURI(Uri.parse(userSession.getRearCameraImage().toString()));
+            } else {
+                surfaceView.setVisibility(View.VISIBLE);
+                ivCapture.setVisibility(View.GONE);
+            }
+        } catch (Exception exp) {
+            exp.getStackTrace();
+        }
+    }
+
+    private void getLayoutUiIdFinds() {
+        try {
+            surfaceView = (SurfaceView) findViewById(R.id.surfaceView);
+            ivCapture = (ImageView) findViewById(R.id.ivCapture);
+
+        } catch (Exception exp) {
+            exp.getStackTrace();
+        }
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
     }
 }

@@ -4,10 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".TestActivities.RearCameraTestActivity">
 
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="parent" />
+
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/camera_capture_button"
+        android:id="@+id/cameraCaptureButton"
         android:layout_width="75dp"
         android:layout_height="75dp"
         android:layout_marginBottom="50dp"
@@ -17,18 +28,19 @@
         android:text="Capture\nPics"
         android:textAllCaps="false"
         android:textColor="@color/white"
+        android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
 
     <ImageView
-        android:id="@+id/iv_capture"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="50dp"
+        android:id="@+id/ivCapture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintRight_toRightOf="parent" />
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

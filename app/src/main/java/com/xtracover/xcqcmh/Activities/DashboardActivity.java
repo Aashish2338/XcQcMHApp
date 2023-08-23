@@ -46,6 +46,7 @@ import com.xtracover.xcqcmh.R;
 import com.xtracover.xcqcmh.TestActivities.AccelerometerTestActivity;
 import com.xtracover.xcqcmh.TestActivities.ButtonsTestActivity;
 import com.xtracover.xcqcmh.TestActivities.FlashTestActivity;
+import com.xtracover.xcqcmh.TestActivities.FrontCameraTestActivity;
 import com.xtracover.xcqcmh.TestActivities.GPSTestActivity;
 import com.xtracover.xcqcmh.TestActivities.LcdGlassTestActivity;
 import com.xtracover.xcqcmh.TestActivities.LcdPixelTestActivity;
@@ -271,7 +272,7 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
                 break;
 
             case R.id.frontCameraTest:
-                Toast.makeText(mContext, "In Progress Front Camera test!", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(mContext, FrontCameraTestActivity.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK));
                 break;
 
             case R.id.rearCameraTest:

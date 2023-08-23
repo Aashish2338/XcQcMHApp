@@ -143,6 +143,15 @@ public class UserSession {
         return pref.getString("frontCamera", "");
     }
 
+    public void setFrontCameraImage(String frontCameraImage) {
+        editor.putString("frontCameraImage", frontCameraImage);
+        editor.commit();
+    }
+
+    public String getFrontCameraImage() {
+        return pref.getString("frontCameraImage", "");
+    }
+
     public void setRearCamera(String rearCamera) {
         editor.putString("rearCamera", rearCamera);
         editor.commit();
@@ -152,6 +161,15 @@ public class UserSession {
         return pref.getString("rearCamera", "");
     }
 
+    public void setRearCameraImage(String rearCameraImage) {
+        editor.putString("rearCameraImage", rearCameraImage);
+        editor.commit();
+    }
+
+    public String getRearCameraImage() {
+        return pref.getString("rearCameraImage", "");
+    }
+
     public void setAltraWideCamera(String altraWideCamera) {
         editor.putString("altraWideCamera", altraWideCamera);
         editor.commit();
@@ -159,6 +177,15 @@ public class UserSession {
 
     public String getAltraWideCamera() {
         return pref.getString("altraWideCamera", "");
+    }
+
+    public void setAltraWideCameraImage(String altraWideCameraImage) {
+        editor.putString("altraWideCameraImage", altraWideCameraImage);
+        editor.commit();
+    }
+
+    public String getAltraWideCameraImage() {
+        return pref.getString("altraWideCameraImage", "");
     }
 
     public void setLoudSpeaker(String loudSpeaker) {

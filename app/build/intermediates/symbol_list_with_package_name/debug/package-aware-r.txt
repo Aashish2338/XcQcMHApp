@@ -3219,7 +3219,7 @@ id buttonPanel
 id buttonsTest
 id cache_measures
 id callMeasure
-id camera_capture_button
+id cameraCaptureButton
 id cancel_button
 id carryVelocity
 id center
@@ -3372,7 +3372,7 @@ id invisible
 id inward
 id italic
 id item_touch_helper_previous_elevation
-id iv_capture
+id ivCapture
 id jumpToEnd
 id jumpToStart
 id lCDPixelTest
@@ -3605,6 +3605,7 @@ id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
+id surfaceView
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -3815,6 +3816,7 @@ layout activity_buttons_test
 layout activity_dashboard
 layout activity_earpiece_test
 layout activity_flash_test
+layout activity_front_camera_test
 layout activity_gpstest
 layout activity_lcd_glass_test
 layout activity_lcd_pixel_test
