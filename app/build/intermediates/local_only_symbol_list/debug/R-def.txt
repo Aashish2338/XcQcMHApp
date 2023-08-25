@@ -105,8 +105,8 @@ id batteryDrainTest
 id bluetoothButtonImg
 id bluetoothCheckImg
 id bluetoothTest
-id bottomMicImg
-id bottomMicTest
+id bottmMicrophoneImg
+id bottomMicrophoneTest
 id brightnessSensorTest
 id burntPixelsTest
 id buttonsTest
@@ -126,8 +126,6 @@ id forceTouchTest
 id frontCameraTest
 id frontFlashCheckImg
 id frontFlashTest
-id frontMicrophoneImg
-id frontMicrophoneTest
 id googleProgressBar
 id gpsButtonImg
 id gpsCheckImg
@@ -172,6 +170,8 @@ id startTest_btn
 id surfaceView
 id text_tvP
 id titleTxt
+id topMicImg
+id topMicTest
 id touchIdTest
 id touchTest
 id trueDepthFaceIDTest

@@ -120,11 +120,11 @@ public class SplashScreenActivity extends AppCompatActivity {
                 permissionsNeeded.add("Read Phone State");
             }
 
-           /* if (!addPermission(permissionsList, Manifest.permission.BLUETOOTH_CONNECT)) {
-                permissionsNeeded.add("Bluetooth Connect");
+            if (!addPermission(permissionsList, Manifest.permission.RECORD_AUDIO)) {
+                permissionsNeeded.add("Record Audio");
             }
 
-            if (!addPermission(permissionsList, Manifest.permission.ACCESS_COARSE_LOCATION)) {
+            /*if (!addPermission(permissionsList, Manifest.permission.ACCESS_COARSE_LOCATION)) {
                 permissionsNeeded.add("Course location");
             }*/
 
@@ -158,7 +158,7 @@ public class SplashScreenActivity extends AppCompatActivity {
                 perms.put(android.Manifest.permission.CALL_PHONE, PackageManager.PERMISSION_GRANTED);
                 perms.put(Manifest.permission.CAMERA, PackageManager.PERMISSION_GRANTED);
                 perms.put(Manifest.permission.READ_PHONE_STATE, PackageManager.PERMISSION_GRANTED);
-//                perms.put(Manifest.permission.BLUETOOTH_CONNECT, PackageManager.PERMISSION_GRANTED);
+                perms.put(Manifest.permission.RECORD_AUDIO, PackageManager.PERMISSION_GRANTED);
 //                perms.put(Manifest.permission.ACCESS_COARSE_LOCATION, PackageManager.PERMISSION_GRANTED);
 
                 // Fill with results
@@ -169,8 +169,8 @@ public class SplashScreenActivity extends AppCompatActivity {
                         && perms.get(android.Manifest.permission.CALL_PHONE) == PackageManager.PERMISSION_GRANTED
                         && perms.get(android.Manifest.permission.CAMERA) == PackageManager.PERMISSION_GRANTED
                         && perms.get(android.Manifest.permission.READ_PHONE_STATE) == PackageManager.PERMISSION_GRANTED
-                        /*&& perms.get(android.Manifest.permission.BLUETOOTH_CONNECT) == PackageManager.PERMISSION_GRANTED
-                        && perms.get(android.Manifest.permission.ACCESS_COARSE_LOCATION) == PackageManager.PERMISSION_GRANTED*/) {
+                        && perms.get(Manifest.permission.RECORD_AUDIO) == PackageManager.PERMISSION_GRANTED
+                    /*&& perms.get(android.Manifest.permission.ACCESS_COARSE_LOCATION) == PackageManager.PERMISSION_GRANTED*/) {
                     // All Permissions Granted
                     getGotoNextPage();
                     return;

@@ -82,7 +82,7 @@
             android:orientation="vertical">
 
             <RelativeLayout
-                android:id="@+id/bottomMicTest"
+                android:id="@+id/topMicTest"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_margin="8dp"
@@ -110,14 +110,14 @@
                     android:layout_toRightOf="@+id/volumeUpImg"
                     android:fontFamily="sans-serif-medium"
                     android:gravity="center"
-                    android:text="Bottom Mic"
+                    android:text="Top/Rear Mic"
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:textSize="18sp"
                     android:textStyle="normal" />
 
                 <ImageView
-                    android:id="@+id/bottomMicImg"
+                    android:id="@+id/topMicImg"
                     android:layout_width="35dp"
                     android:layout_height="35dp"
                     android:layout_alignParentRight="true"
@@ -131,7 +131,7 @@
             </RelativeLayout>
 
             <RelativeLayout
-                android:id="@+id/frontMicrophoneTest"
+                android:id="@+id/bottomMicrophoneTest"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_margin="8dp"
@@ -159,14 +159,14 @@
                     android:layout_toRightOf="@+id/volumeDownImg"
                     android:fontFamily="sans-serif-medium"
                     android:gravity="center"
-                    android:text="Front Mic"
+                    android:text="Front/Bottom Mic"
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:textSize="18sp"
                     android:textStyle="normal" />
 
                 <ImageView
-                    android:id="@+id/frontMicrophoneImg"
+                    android:id="@+id/bottmMicrophoneImg"
                     android:layout_width="35dp"
                     android:layout_height="35dp"
                     android:layout_alignParentRight="true"

@@ -3206,9 +3206,9 @@ id blocking
 id bluetoothButtonImg
 id bluetoothCheckImg
 id bluetoothTest
+id bottmMicrophoneImg
 id bottom
-id bottomMicImg
-id bottomMicTest
+id bottomMicrophoneTest
 id bounce
 id bounceBoth
 id bounceEnd
@@ -3332,8 +3332,6 @@ id fragment_container_view_tag
 id frontCameraTest
 id frontFlashCheckImg
 id frontFlashTest
-id frontMicrophoneImg
-id frontMicrophoneTest
 id frost
 id fullscreen_header
 id ghost_view
@@ -3644,6 +3642,8 @@ id titleTxt
 id title_template
 id toggle
 id top
+id topMicImg
+id topMicTest
 id topPanel
 id touchIdTest
 id touchTest

@@ -85,235 +85,238 @@
 35    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
 35-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:38:5-85
 35-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:38:22-82
-36
-37    <uses-feature android:name="android.hardware.camera" />
-37-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:40:5-60
-37-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:40:19-57
-38    <uses-feature android:name="android.hardware.camera.any" />
-38-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:41:5-64
-38-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:41:19-61
-39    <uses-feature android:name="android.hardware.camera2.full" />
-39-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:42:5-66
-39-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:42:19-63
-40    <uses-feature
-40-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:43:5-45:36
-41        android:name="android.hardware.camera.front"
-41-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:44:9-53
-42        android:required="false" />
-42-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:45:9-33
-43    <uses-feature
-43-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:46:5-48:36
-44        android:name="android.hardware.camera.flash"
-44-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:47:9-53
-45        android:required="false" />
-45-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:48:9-33
-46    <uses-feature
-46-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:49:5-51:36
-47        android:name="android.hardware.camera.autofocus"
-47-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:50:9-57
-48        android:required="false" />
-48-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:51:9-33
-49    <uses-feature
-49-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:52:5-54:35
-50        android:name="android.hardware.sensor.accelerometer"
-50-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:53:9-61
-51        android:required="true" />
-51-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:54:9-32
-52    <uses-feature
-52-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:55:5-57:35
-53        android:name="android.hardware.sensor.gyroscope"
-53-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:56:9-57
-54        android:required="true" />
-54-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:57:9-32
-55
-56    <permission
-56-->[androidx.core:core:1.9.0] C:\Users\aashi\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
-57        android:name="com.xtracover.xcqcmh.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-57-->[androidx.core:core:1.9.0] C:\Users\aashi\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
-58        android:protectionLevel="signature" />
-58-->[androidx.core:core:1.9.0] C:\Users\aashi\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
-59
-60    <uses-permission android:name="com.xtracover.xcqcmh.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-60-->[androidx.core:core:1.9.0] C:\Users\aashi\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-60-->[androidx.core:core:1.9.0] C:\Users\aashi\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
-61
-62    <application
-62-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:59:5-136:19
-63        android:allowBackup="true"
-63-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:60:9-35
-64        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-64-->[androidx.core:core:1.9.0] C:\Users\aashi\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
-65        android:dataExtractionRules="@xml/data_extraction_rules"
-65-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:61:9-65
-66        android:debuggable="true"
-67        android:fullBackupContent="@xml/backup_rules"
-67-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:62:9-54
-68        android:icon="@mipmap/ic_launcher"
-68-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:63:9-43
-69        android:label="@string/app_name"
-69-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:64:9-41
-70        android:roundIcon="@mipmap/ic_launcher_round"
-70-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:65:9-54
-71        android:supportsRtl="true"
-71-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:66:9-35
-72        android:testOnly="true"
-73        android:theme="@style/Theme.XcQcMHApp"
-73-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:67:9-47
-74        android:usesCleartextTraffic="true" >
-74-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:68:9-44
-75        <activity
-75-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:70:9-72:40
-76            android:name="com.xtracover.xcqcmh.TestActivities.FrontCameraTestActivity"
-76-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:71:13-67
-77            android:exported="false" />
-77-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:72:13-37
-78        <activity
-78-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:73:9-75:40
-79            android:name="com.xtracover.xcqcmh.TestActivities.RearCameraTestActivity"
-79-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:74:13-66
-80            android:exported="false" />
-80-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:75:13-37
-81        <activity
-81-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:76:9-78:40
-82            android:name="com.xtracover.xcqcmh.TestActivities.LcdGlassTestActivity"
-82-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:77:13-64
-83            android:exported="false" />
-83-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:78:13-37
-84        <activity
-84-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:79:9-81:40
-85            android:name="com.xtracover.xcqcmh.TestActivities.LcdPixelTestActivity"
-85-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:80:13-64
-86            android:exported="false" />
-86-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:81:13-37
-87        <activity
-87-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:82:9-84:40
-88            android:name="com.xtracover.xcqcmh.TestActivities.EarpieceTestActivity"
-88-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:83:13-64
-89            android:exported="false" />
-89-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:84:13-37
-90        <activity
-90-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:85:9-87:40
-91            android:name="com.xtracover.xcqcmh.TestActivities.LoudSpeakerTestActivity"
-91-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:86:13-67
-92            android:exported="false" />
-92-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:87:13-37
-93        <activity
-93-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:88:9-90:40
-94            android:name="com.xtracover.xcqcmh.TestActivities.MicrophoneTestActivity"
-94-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:89:13-66
-95            android:exported="false" />
-95-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:90:13-37
-96        <activity
-96-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:91:9-93:40
-97            android:name="com.xtracover.xcqcmh.TestActivities.FlashTestActivity"
-97-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:92:13-61
-98            android:exported="false" />
-98-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:93:13-37
-99        <activity
-99-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:94:9-96:40
-100            android:name="com.xtracover.xcqcmh.TestActivities.AccelerometerTestActivity"
-100-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:95:13-69
-101            android:exported="false" />
-101-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:96:13-37
-102        <activity
-102-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:97:9-99:40
-103            android:name="com.xtracover.xcqcmh.TestActivities.NFCTestActivity"
-103-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:98:13-59
-104            android:exported="false" />
-104-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:99:13-37
-105        <activity
-105-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:100:9-102:40
-106            android:name="com.xtracover.xcqcmh.TestActivities.VibrationTestActivity"
-106-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:101:13-65
-107            android:exported="false" />
-107-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:102:13-37
-108        <activity
-108-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:103:9-105:40
-109            android:name="com.xtracover.xcqcmh.TestActivities.BluetoothTestActivity"
-109-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:104:13-65
-110            android:exported="false" />
-110-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:105:13-37
-111        <activity
-111-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:106:9-108:40
-112            android:name="com.xtracover.xcqcmh.TestActivities.GPSTestActivity"
-112-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:107:13-59
-113            android:exported="false" />
-113-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:108:13-37
-114        <activity
-114-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:109:9-111:40
-115            android:name="com.xtracover.xcqcmh.TestActivities.ScreenTouchActivity"
-115-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:110:13-63
-116            android:exported="false" />
-116-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:111:13-37
-117        <activity
-117-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:112:9-114:40
-118            android:name="com.xtracover.xcqcmh.TestActivities.ProximitySensorActivity"
-118-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:113:13-67
-119            android:exported="false" />
-119-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:114:13-37
-120        <activity
-120-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:115:9-117:40
-121            android:name="com.xtracover.xcqcmh.TestActivities.WiFiInternetTestActivity"
-121-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:116:13-68
-122            android:exported="false" />
-122-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:117:13-37
-123        <activity
-123-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:118:9-120:40
-124            android:name="com.xtracover.xcqcmh.TestActivities.ButtonsTestActivity"
-124-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:119:13-63
-125            android:exported="false" />
-125-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:120:13-37
-126        <activity
-126-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:121:9-123:40
-127            android:name="com.xtracover.xcqcmh.Activities.DashboardActivity"
-127-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:122:13-57
-128            android:exported="false" />
-128-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:123:13-37
-129        <activity
-129-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:124:9-126:40
-130            android:name="com.xtracover.xcqcmh.Activities.LoginActivity"
-130-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:125:13-53
-131            android:exported="false" />
-131-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:126:13-37
-132        <activity
-132-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:127:9-135:20
-133            android:name="com.xtracover.xcqcmh.SplashScreenActivity"
-133-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:128:13-49
-134            android:exported="true" >
-134-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:129:13-36
-135            <intent-filter>
-135-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:130:13-134:29
-136                <action android:name="android.intent.action.MAIN" />
-136-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:131:17-69
-136-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:131:25-66
-137
-138                <category android:name="android.intent.category.LAUNCHER" />
-138-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:133:17-77
-138-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:133:27-74
-139            </intent-filter>
-140        </activity>
-141
-142        <provider
-142-->[androidx.emoji2:emoji2:1.2.0] C:\Users\aashi\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-143            android:name="androidx.startup.InitializationProvider"
-143-->[androidx.emoji2:emoji2:1.2.0] C:\Users\aashi\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
-144            android:authorities="com.xtracover.xcqcmh.androidx-startup"
-144-->[androidx.emoji2:emoji2:1.2.0] C:\Users\aashi\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
-145            android:exported="false" >
-145-->[androidx.emoji2:emoji2:1.2.0] C:\Users\aashi\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
-146            <meta-data
-146-->[androidx.emoji2:emoji2:1.2.0] C:\Users\aashi\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-147                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-147-->[androidx.emoji2:emoji2:1.2.0] C:\Users\aashi\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
-148                android:value="androidx.startup" />
-148-->[androidx.emoji2:emoji2:1.2.0] C:\Users\aashi\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
-149            <meta-data
-149-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\aashi\.gradle\caches\transforms-3\1d1173f99a1313055c26367e9296308a\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-150                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-150-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\aashi\.gradle\caches\transforms-3\1d1173f99a1313055c26367e9296308a\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-151                android:value="androidx.startup" />
-151-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\aashi\.gradle\caches\transforms-3\1d1173f99a1313055c26367e9296308a\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-152        </provider>
-153    </application>
-154
-155</manifest>
+36    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+36-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:36:5-71
+36-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:36:22-68
+37
+38    <uses-feature android:name="android.hardware.camera" />
+38-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:41:5-60
+38-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:41:19-57
+39    <uses-feature android:name="android.hardware.camera.any" />
+39-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:42:5-64
+39-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:42:19-61
+40    <uses-feature android:name="android.hardware.camera2.full" />
+40-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:43:5-66
+40-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:43:19-63
+41    <uses-feature
+41-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:44:5-46:36
+42        android:name="android.hardware.camera.front"
+42-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:45:9-53
+43        android:required="false" />
+43-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:46:9-33
+44    <uses-feature
+44-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:47:5-49:36
+45        android:name="android.hardware.camera.flash"
+45-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:48:9-53
+46        android:required="false" />
+46-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:49:9-33
+47    <uses-feature
+47-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:50:5-52:36
+48        android:name="android.hardware.camera.autofocus"
+48-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:51:9-57
+49        android:required="false" />
+49-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:52:9-33
+50    <uses-feature
+50-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:53:5-55:35
+51        android:name="android.hardware.sensor.accelerometer"
+51-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:54:9-61
+52        android:required="true" />
+52-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:55:9-32
+53    <uses-feature
+53-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:56:5-58:35
+54        android:name="android.hardware.sensor.gyroscope"
+54-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:57:9-57
+55        android:required="true" />
+55-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:58:9-32
+56
+57    <permission
+57-->[androidx.core:core:1.9.0] C:\Users\aashi\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+58        android:name="com.xtracover.xcqcmh.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+58-->[androidx.core:core:1.9.0] C:\Users\aashi\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+59        android:protectionLevel="signature" />
+59-->[androidx.core:core:1.9.0] C:\Users\aashi\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+60
+61    <uses-permission android:name="com.xtracover.xcqcmh.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+61-->[androidx.core:core:1.9.0] C:\Users\aashi\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+61-->[androidx.core:core:1.9.0] C:\Users\aashi\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+62
+63    <application
+63-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:60:5-137:19
+64        android:allowBackup="true"
+64-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:61:9-35
+65        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+65-->[androidx.core:core:1.9.0] C:\Users\aashi\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+66        android:dataExtractionRules="@xml/data_extraction_rules"
+66-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:62:9-65
+67        android:debuggable="true"
+68        android:fullBackupContent="@xml/backup_rules"
+68-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:63:9-54
+69        android:icon="@mipmap/ic_launcher"
+69-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:64:9-43
+70        android:label="@string/app_name"
+70-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:65:9-41
+71        android:roundIcon="@mipmap/ic_launcher_round"
+71-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:66:9-54
+72        android:supportsRtl="true"
+72-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:67:9-35
+73        android:testOnly="true"
+74        android:theme="@style/Theme.XcQcMHApp"
+74-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:68:9-47
+75        android:usesCleartextTraffic="true" >
+75-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:69:9-44
+76        <activity
+76-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:71:9-73:40
+77            android:name="com.xtracover.xcqcmh.TestActivities.FrontCameraTestActivity"
+77-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:72:13-67
+78            android:exported="false" />
+78-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:73:13-37
+79        <activity
+79-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:74:9-76:40
+80            android:name="com.xtracover.xcqcmh.TestActivities.RearCameraTestActivity"
+80-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:75:13-66
+81            android:exported="false" />
+81-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:76:13-37
+82        <activity
+82-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:77:9-79:40
+83            android:name="com.xtracover.xcqcmh.TestActivities.LcdGlassTestActivity"
+83-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:78:13-64
+84            android:exported="false" />
+84-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:79:13-37
+85        <activity
+85-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:80:9-82:40
+86            android:name="com.xtracover.xcqcmh.TestActivities.LcdPixelTestActivity"
+86-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:81:13-64
+87            android:exported="false" />
+87-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:82:13-37
+88        <activity
+88-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:83:9-85:40
+89            android:name="com.xtracover.xcqcmh.TestActivities.EarpieceTestActivity"
+89-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:84:13-64
+90            android:exported="false" />
+90-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:85:13-37
+91        <activity
+91-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:86:9-88:40
+92            android:name="com.xtracover.xcqcmh.TestActivities.LoudSpeakerTestActivity"
+92-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:87:13-67
+93            android:exported="false" />
+93-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:88:13-37
+94        <activity
+94-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:89:9-91:40
+95            android:name="com.xtracover.xcqcmh.TestActivities.MicrophoneTestActivity"
+95-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:90:13-66
+96            android:exported="false" />
+96-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:91:13-37
+97        <activity
+97-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:92:9-94:40
+98            android:name="com.xtracover.xcqcmh.TestActivities.FlashTestActivity"
+98-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:93:13-61
+99            android:exported="false" />
+99-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:94:13-37
+100        <activity
+100-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:95:9-97:40
+101            android:name="com.xtracover.xcqcmh.TestActivities.AccelerometerTestActivity"
+101-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:96:13-69
+102            android:exported="false" />
+102-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:97:13-37
+103        <activity
+103-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:98:9-100:40
+104            android:name="com.xtracover.xcqcmh.TestActivities.NFCTestActivity"
+104-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:99:13-59
+105            android:exported="false" />
+105-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:100:13-37
+106        <activity
+106-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:101:9-103:40
+107            android:name="com.xtracover.xcqcmh.TestActivities.VibrationTestActivity"
+107-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:102:13-65
+108            android:exported="false" />
+108-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:103:13-37
+109        <activity
+109-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:104:9-106:40
+110            android:name="com.xtracover.xcqcmh.TestActivities.BluetoothTestActivity"
+110-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:105:13-65
+111            android:exported="false" />
+111-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:106:13-37
+112        <activity
+112-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:107:9-109:40
+113            android:name="com.xtracover.xcqcmh.TestActivities.GPSTestActivity"
+113-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:108:13-59
+114            android:exported="false" />
+114-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:109:13-37
+115        <activity
+115-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:110:9-112:40
+116            android:name="com.xtracover.xcqcmh.TestActivities.ScreenTouchActivity"
+116-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:111:13-63
+117            android:exported="false" />
+117-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:112:13-37
+118        <activity
+118-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:113:9-115:40
+119            android:name="com.xtracover.xcqcmh.TestActivities.ProximitySensorActivity"
+119-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:114:13-67
+120            android:exported="false" />
+120-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:115:13-37
+121        <activity
+121-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:116:9-118:40
+122            android:name="com.xtracover.xcqcmh.TestActivities.WiFiInternetTestActivity"
+122-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:117:13-68
+123            android:exported="false" />
+123-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:118:13-37
+124        <activity
+124-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:119:9-121:40
+125            android:name="com.xtracover.xcqcmh.TestActivities.ButtonsTestActivity"
+125-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:120:13-63
+126            android:exported="false" />
+126-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:121:13-37
+127        <activity
+127-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:122:9-124:40
+128            android:name="com.xtracover.xcqcmh.Activities.DashboardActivity"
+128-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:123:13-57
+129            android:exported="false" />
+129-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:124:13-37
+130        <activity
+130-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:125:9-127:40
+131            android:name="com.xtracover.xcqcmh.Activities.LoginActivity"
+131-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:126:13-53
+132            android:exported="false" />
+132-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:127:13-37
+133        <activity
+133-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:128:9-136:20
+134            android:name="com.xtracover.xcqcmh.SplashScreenActivity"
+134-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:129:13-49
+135            android:exported="true" >
+135-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:130:13-36
+136            <intent-filter>
+136-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:131:13-135:29
+137                <action android:name="android.intent.action.MAIN" />
+137-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:132:17-69
+137-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:132:25-66
+138
+139                <category android:name="android.intent.category.LAUNCHER" />
+139-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:134:17-77
+139-->E:\LatestProjects\XcQcMHApp\app\src\main\AndroidManifest.xml:134:27-74
+140            </intent-filter>
+141        </activity>
+142
+143        <provider
+143-->[androidx.emoji2:emoji2:1.2.0] C:\Users\aashi\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+144            android:name="androidx.startup.InitializationProvider"
+144-->[androidx.emoji2:emoji2:1.2.0] C:\Users\aashi\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+145            android:authorities="com.xtracover.xcqcmh.androidx-startup"
+145-->[androidx.emoji2:emoji2:1.2.0] C:\Users\aashi\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+146            android:exported="false" >
+146-->[androidx.emoji2:emoji2:1.2.0] C:\Users\aashi\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+147            <meta-data
+147-->[androidx.emoji2:emoji2:1.2.0] C:\Users\aashi\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+148                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+148-->[androidx.emoji2:emoji2:1.2.0] C:\Users\aashi\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+149                android:value="androidx.startup" />
+149-->[androidx.emoji2:emoji2:1.2.0] C:\Users\aashi\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+150            <meta-data
+150-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\aashi\.gradle\caches\transforms-3\1d1173f99a1313055c26367e9296308a\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+151                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+151-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\aashi\.gradle\caches\transforms-3\1d1173f99a1313055c26367e9296308a\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+152                android:value="androidx.startup" />
+152-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\aashi\.gradle\caches\transforms-3\1d1173f99a1313055c26367e9296308a\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+153        </provider>
+154    </application>
+155
+156</manifest>
