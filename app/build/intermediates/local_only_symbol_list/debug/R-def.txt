@@ -100,7 +100,6 @@ id backButtonTest
 id backImg
 id backlightSpotsTest
 id backlightTest
-id battaryImg
 id batteryDrainTest
 id bluetoothButtonImg
 id bluetoothCheckImg
@@ -119,6 +118,8 @@ id earpieceCheckImg
 id earpieceTest
 id emailSignInButtonP
 id email_etP
+id failBtn
+id failPixelBtn
 id flashCheckImg
 id flashLightTest
 id flashTest
@@ -149,6 +150,8 @@ id nfcCheckImg
 id nfcTest
 id noVibrate
 id operatorBlockCheckTest
+id passBtn
+id passPixelBtn
 id password
 id passwordLayoutP
 id password_etP
@@ -164,7 +167,6 @@ id rearMicTest
 id refreshImg
 id retryTest_btn
 id rightAndLeftChannelTest
-id scratchViews
 id simCardReaderTest
 id startTest_btn
 id surfaceView

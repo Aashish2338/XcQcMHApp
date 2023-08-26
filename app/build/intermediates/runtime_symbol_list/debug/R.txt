@@ -3196,7 +3196,6 @@ int id backlightSpotsTest 0x7f090065
 int id backlightTest 0x7f090066
 int id barrier 0x7f090067
 int id baseline 0x7f090068
-int id battaryImg 0x7f090069
 int id batteryDrainTest 0x7f09006a
 int id beginOnFirstDraw 0x7f09006b
 int id beginning 0x7f09006c
@@ -3309,6 +3308,8 @@ int id exitUntilCollapsed 0x7f0900d6
 int id expand_activities_button 0x7f0900d7
 int id expanded_menu 0x7f0900d8
 int id fade 0x7f0900d9
+int id failBtn 0x7f090261
+int id failPixelBtn 0x7f090262
 int id fill 0x7f0900da
 int id fill_horizontal 0x7f0900db
 int id fill_vertical 0x7f0900dc
@@ -3488,6 +3489,8 @@ int id parent 0x7f09018b
 int id parentPanel 0x7f09018c
 int id parentRelative 0x7f09018d
 int id parent_matrix 0x7f09018e
+int id passBtn 0x7f090263
+int id passPixelBtn 0x7f090264
 int id password 0x7f09018f
 int id passwordLayoutP 0x7f090190
 int id password_etP 0x7f090191
@@ -3528,7 +3531,6 @@ int id save_non_transition_alpha 0x7f0901b3
 int id save_overlay_view 0x7f0901b4
 int id sawtooth 0x7f0901b5
 int id scale 0x7f0901b6
-int id scratchViews 0x7f0901b7
 int id screen 0x7f0901b8
 int id scroll 0x7f0901b9
 int id scrollIndicatorDown 0x7f0901ba

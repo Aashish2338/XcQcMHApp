@@ -3197,7 +3197,6 @@ id backlightSpotsTest
 id backlightTest
 id barrier
 id baseline
-id battaryImg
 id batteryDrainTest
 id beginOnFirstDraw
 id beginning
@@ -3310,6 +3309,8 @@ id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id fade
+id failBtn
+id failPixelBtn
 id fill
 id fill_horizontal
 id fill_vertical
@@ -3489,6 +3490,8 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
+id passBtn
+id passPixelBtn
 id password
 id passwordLayoutP
 id password_etP
@@ -3529,7 +3532,6 @@ id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
 id scale
-id scratchViews
 id screen
 id scroll
 id scrollIndicatorDown

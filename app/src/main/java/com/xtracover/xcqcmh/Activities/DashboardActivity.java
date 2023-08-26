@@ -45,6 +45,7 @@ import androidx.core.content.ContextCompat;
 import com.xtracover.xcqcmh.R;
 import com.xtracover.xcqcmh.TestActivities.AccelerometerTestActivity;
 import com.xtracover.xcqcmh.TestActivities.ButtonsTestActivity;
+import com.xtracover.xcqcmh.TestActivities.DigitizerTestActivity;
 import com.xtracover.xcqcmh.TestActivities.FlashTestActivity;
 import com.xtracover.xcqcmh.TestActivities.FrontCameraTestActivity;
 import com.xtracover.xcqcmh.TestActivities.GPSTestActivity;
@@ -63,7 +64,7 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
 
     private Context mContext;
     private UserSession userSession;
-    private ImageView refreshImg, battaryImg, checkImg;
+    private ImageView refreshImg, checkImg;
     private AppCompatButton startTest_btn;
     private LinearLayout wifiTest, bluetoothTest, proximitySensorTest, buttonsTest, vibrationTest, frontCameraTest;
     private LinearLayout rearCameraTest, altraWideCameraTest, loudSpeakerTest, microphoneTest;
@@ -74,7 +75,6 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
     private WifiManager wifiManager;
     private boolean wifiEnabled = false, previousConnectivityStatus = false, mConnected = false;
     private ConnectivityManager connectionManager;
-    private CountDownTimer countDownTimer;
 
     private Vibrator vibrator;
     private boolean vibrated;
@@ -105,7 +105,6 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
         myReceiver = new MusicIntentReceiver();
 
         refreshImg.setOnClickListener(this);
-        battaryImg.setOnClickListener(this);
         checkImg.setOnClickListener(this);
         startTest_btn.setOnClickListener(this);
         wifiTest.setOnClickListener(this);
@@ -168,7 +167,6 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
     private void getLayoutUiIdFinds() {
         try {
             refreshImg = (ImageView) findViewById(R.id.refreshImg);
-            battaryImg = (ImageView) findViewById(R.id.battaryImg);
             checkImg = (ImageView) findViewById(R.id.checkImg);
             startTest_btn = (AppCompatButton) findViewById(R.id.startTest_btn);
             wifiTest = (LinearLayout) findViewById(R.id.wifiTest);
@@ -235,10 +233,6 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
         switch (v.getId()) {
             case R.id.refreshImg:
                 Toast.makeText(mContext, "In progress refresh action!", Toast.LENGTH_SHORT).show();
-                break;
-
-            case R.id.battaryImg:
-                Toast.makeText(mContext, "In progress battery action!", Toast.LENGTH_SHORT).show();
                 break;
 
             case R.id.checkImg:
@@ -308,7 +302,7 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
                 break;
 
             case R.id.digitizerTest:
-                Toast.makeText(mContext, "In Progress Digitizer test!", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(mContext, DigitizerTestActivity.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK));
                 break;
 
 
@@ -393,7 +387,7 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
 
     private void getCountTimeForWiFiTest() {
         try {
-            countDownTimer = new CountDownTimer(2000, 1000) {
+            new CountDownTimer(2000, 1000) {
 
                 public void onTick(long millisUntilFinished) {
                     // Register Connectivity Receiver
@@ -496,7 +490,7 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
     // Thhis code is Bluetooth test
     private void getCountBluetoothTest() {
         try {
-            countDownTimer = new CountDownTimer(2000, 1000) {
+            new CountDownTimer(2000, 1000) {
 
                 @SuppressLint("MissingPermission")
                 public void onTick(long millisUntilFinished) {
@@ -597,7 +591,7 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
     private void getCountVibrationTest() {
         try {
             vibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
-            countDownTimer = new CountDownTimer(2000, 1000) {
+            new CountDownTimer(2000, 1000) {
 
                 @SuppressLint("MissingPermission")
                 public void onTick(long millisUntilFinished) {
@@ -683,7 +677,7 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
 
     // This code is Loudspeaker test
     private void getCountLoudSpeakerTestOfDevice() {
-        countDownTimer = new CountDownTimer(2000, 2000) {
+        new CountDownTimer(2000, 2000) {
             @Override
             public void onTick(long millisUntilFinished) {
                 System.out.println("Device loud speaker test!");
@@ -735,7 +729,7 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
 
     // This code is earpiece test
     private void getCountEarphoneTestOfDevice() {
-        countDownTimer = new CountDownTimer(2000, 2000) {
+        new CountDownTimer(2000, 2000) {
             @Override
             public void onTick(long millisUntilFinished) {
                 System.out.println("Device ear phone test!");

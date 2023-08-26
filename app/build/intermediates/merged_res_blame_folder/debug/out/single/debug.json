@@ -8,10 +8,6 @@
         "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\layout\\activity_accelerometer_test.xml"
     },
     {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/layout_activity_microphone_test.xml.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/layout/activity_microphone_test.xml"
-    },
-    {
         "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_user.png.flat",
         "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\user.png"
     },
@@ -120,6 +116,10 @@
         "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\scan_powerbutton.png"
     },
     {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/layout_vibrate_item_layout.xml.flat",
+        "source": "com.xtracover.xcqcmh.app-main-33:/layout/vibrate_item_layout.xml"
+    },
+    {
         "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_heart.png.flat",
         "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\heart.png"
     },
@@ -174,10 +174,6 @@
     {
         "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_pixel_lcd_color.xml.flat",
         "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\pixel_lcd_color.xml"
-    },
-    {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/layout_activity_front_camera_test.xml.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/layout/activity_front_camera_test.xml"
     },
     {
         "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\layout_activity_buttons_test.xml.flat",
@@ -414,10 +410,6 @@
     {
         "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_scan_gps.png.flat",
         "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\scan_gps.png"
-    },
-    {
-        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/layout_activity_rear_camera_test.xml.flat",
-        "source": "com.xtracover.xcqcmh.app-main-33:/layout/activity_rear_camera_test.xml"
     },
     {
         "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_refresh.png.flat",

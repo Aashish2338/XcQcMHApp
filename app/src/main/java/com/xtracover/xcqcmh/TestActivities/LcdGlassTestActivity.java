@@ -1,29 +1,24 @@
 package com.xtracover.xcqcmh.TestActivities;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.annotation.SuppressLint;
 import android.content.Context;
-import android.content.Intent;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
-import android.os.CountDownTimer;
 import android.view.View;
 import android.view.WindowManager;
-import android.widget.Toast;
 
-import com.cooltechworks.views.ScratchImageView;
-import com.xtracover.xcqcmh.Activities.DashboardActivity;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatButton;
+
 import com.xtracover.xcqcmh.R;
 import com.xtracover.xcqcmh.Utilities.UserSession;
 
-public class LcdGlassTestActivity extends AppCompatActivity {
+public class LcdGlassTestActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Context mContext;
     private UserSession userSession;
-    private ScratchImageView scratchView;
-    private CountDownTimer countDownTimer;
+    private AppCompatButton failBtn, passBtn;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -33,61 +28,12 @@ public class LcdGlassTestActivity extends AppCompatActivity {
         setContentView(R.layout.activity_lcd_glass_test);
         mContext = this;
         userSession = new UserSession(mContext);
+        failBtn = (AppCompatButton) findViewById(R.id.failBtn);
+        passBtn = (AppCompatButton) findViewById(R.id.passBtn);
 
-        scratchView = (ScratchImageView) findViewById(R.id.scratchViews);
-        getLcdGlassTest();
+        passBtn.setOnClickListener(this);
+        failBtn.setOnClickListener(this);
 
-    }
-
-    private void getLcdGlassTest() {
-        try {
-            scratchView.setRevealListener(new ScratchImageView.IRevealListener() {
-                @Override
-                public void onRevealed(ScratchImageView iv) {
-                    if (iv.isRevealed()) {
-                        System.out.println("LCD pixel pass!");
-                        Toast.makeText(mContext, "Lcd pixel pass!", Toast.LENGTH_LONG).show();
-                    } else {
-                        System.out.println("LCD pixel fail!");
-                        Toast.makeText(mContext, "Lcd pixel fail!", Toast.LENGTH_LONG).show();
-                    }
-                }
-
-                @Override
-                public void onRevealPercentChangedListener(ScratchImageView siv, float percent) {
-                    System.out.println("Scratched percentage :- " + percent);
-                    if (percent >= 0.9999043 || percent >= 0.99952066) { //0.99952066
-                        System.out.println("Lcd pixel pass!");
-                        Toast.makeText(mContext, "LCD pixel pass!", Toast.LENGTH_LONG).show();
-                        userSession.setLCDGlass("1");
-                        getBackCountTime();
-                    } else {
-                        System.out.println("Lcd pixel fail!");
-                        userSession.setLCDGlass("0");
-                    }
-                }
-            });
-        } catch (Exception exp) {
-            exp.getStackTrace();
-        }
-    }
-
-    private void getBackCountTime() {
-        try {
-            countDownTimer = new CountDownTimer(1000, 1000) {
-                @Override
-                public void onTick(long millisUntilFinished) {
-
-                }
-
-                @Override
-                public void onFinish() {
-                    onBackPressed();
-                }
-            }.start();
-        } catch (Exception exp) {
-            exp.getStackTrace();
-        }
     }
 
     private void setHideSystemUI() {
@@ -108,5 +54,22 @@ public class LcdGlassTestActivity extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         super.onBackPressed();
+    }
+
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()) {
+            case R.id.passBtn:
+                userSession.setLCDGlass("1");
+                System.out.println("Lcd pixel pass!");
+                onBackPressed();
+                break;
+
+            case R.id.failBtn:
+                System.out.println("Lcd pixel fail!");
+                userSession.setLCDGlass("0");
+                onBackPressed();
+                break;
+        }
     }
 }

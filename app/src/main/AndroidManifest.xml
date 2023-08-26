@@ -69,6 +69,9 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name=".TestActivities.DigitizerTestActivity"
+            android:exported="false" />
+        <activity
             android:name=".TestActivities.FrontCameraTestActivity"
             android:exported="false" />
         <activity

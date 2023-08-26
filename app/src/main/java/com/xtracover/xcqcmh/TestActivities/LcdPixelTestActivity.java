@@ -13,6 +13,7 @@ import android.os.CountDownTimer;
 import android.os.Handler;
 import android.speech.tts.TextToSpeech;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
@@ -21,19 +22,22 @@ import android.widget.Toast;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatButton;
 
 import com.cooltechworks.views.ScratchImageView;
 import com.xtracover.xcqcmh.Activities.DashboardActivity;
 import com.xtracover.xcqcmh.R;
 import com.xtracover.xcqcmh.Utilities.UserSession;
 
-public class LcdPixelTestActivity extends AppCompatActivity {
+public class LcdPixelTestActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Context mContext;
     private UserSession userSession;
     private CountDownTimer countDownTimer;
     private int counter = 0;
+    private AppCompatButton failPixelBtn, passPixelBtn;
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,6 +45,12 @@ public class LcdPixelTestActivity extends AppCompatActivity {
         setContentView(R.layout.activity_lcd_pixel_test);
         mContext = this;
         userSession = new UserSession(mContext);
+
+        failPixelBtn = (AppCompatButton) findViewById(R.id.failPixelBtn);
+        passPixelBtn = (AppCompatButton) findViewById(R.id.passPixelBtn);
+
+        failPixelBtn.setOnClickListener(this);
+        passPixelBtn.setOnClickListener(this);
 
         getLCDPixelTestCount();
     }
@@ -71,18 +81,30 @@ public class LcdPixelTestActivity extends AppCompatActivity {
             localView.setKeepScreenOn(true);
             setContentView(localView);
 
-            new Handler().postDelayed(new Runnable() {
+            localView.setOnClickListener(new View.OnClickListener() {
                 @Override
-                public void run() {
+                public void onClick(View v) {
                     if ((counter == 0) || (counter == 3)) {
                         counter = counter + 1;
-                        Log.d("counter", String.valueOf(counter));
                         screenTestGreenColor();
+                        Log.d("counter", String.valueOf(counter));
                     } else {
                         Log.d("counter", String.valueOf(counter));
                     }
                 }
-            }, 1500);
+            });
+//            new Handler().postDelayed(new Runnable() {
+//                @Override
+//                public void run() {
+//                    if ((counter == 0) || (counter == 3)) {
+//                        counter = counter + 1;
+//                        screenTestGreenColor();
+//                        Log.d("counter", String.valueOf(counter));
+//                    } else {
+//                        Log.d("counter", String.valueOf(counter));
+//                    }
+//                }
+//            }, 1500);
         } catch (Exception exp) {
             Log.d("Screen Red Color", " Test :- " + exp.toString());
             exp.getStackTrace();
@@ -96,9 +118,9 @@ public class LcdPixelTestActivity extends AppCompatActivity {
             localView.setKeepScreenOn(true);
             setContentView(localView);
 
-            new Handler().postDelayed(new Runnable() {
+            localView.setOnClickListener(new View.OnClickListener() {
                 @Override
-                public void run() {
+                public void onClick(View v) {
                     if (counter == 1) {
                         counter = counter + 1;
                         Log.d("counter", String.valueOf(counter));
@@ -107,7 +129,7 @@ public class LcdPixelTestActivity extends AppCompatActivity {
                         Log.d("counter", String.valueOf(counter));
                     }
                 }
-            }, 1500);
+            });
         } catch (Exception exp) {
             Log.d("Screen Green Color", " Test :- " + exp.toString());
             exp.getStackTrace();
@@ -121,18 +143,18 @@ public class LcdPixelTestActivity extends AppCompatActivity {
             localView.setKeepScreenOn(true);
             setContentView(localView);
 
-            new Handler().postDelayed(new Runnable() {
+            localView.setOnClickListener(new View.OnClickListener() {
                 @Override
-                public void run() {
+                public void onClick(View v) {
                     if (counter == 2) {
                         counter = counter + 1;
                         Log.d("counter", String.valueOf(counter));
-                        startWhiteScreenTest();
+                        getAlertForLcdPixel();
                     } else {
                         Log.d("counter", String.valueOf(counter));
                     }
                 }
-            }, 1500);
+            });
         } catch (Exception exp) {
             Log.d("Screen Blue Color", " Test :- " + exp.toString());
             exp.getStackTrace();
@@ -171,11 +193,14 @@ public class LcdPixelTestActivity extends AppCompatActivity {
             dialog.getWindow().setLayout(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
             dialog.setCanceledOnTouchOutside(true);
             dialog.getWindow().getAttributes().windowAnimations = R.style.animation;
+            WindowManager.LayoutParams wmlp = dialog.getWindow().getAttributes();
+            wmlp.gravity = Gravity.BOTTOM | Gravity.CENTER;
 
             TextView yesVibrate = (TextView) dialog.findViewById(R.id.yesVibrate);
             TextView noVibrate = (TextView) dialog.findViewById(R.id.noVibrate);
             TextView titleTxt = (TextView) dialog.findViewById(R.id.titleTxt);
             TextView descriptionTxt = (TextView) dialog.findViewById(R.id.descriptionTxt);
+
 
             titleTxt.setText("LCD Pixel Test");
             descriptionTxt.setText("Did you find any dot, spot or defect on the display?");
@@ -224,5 +249,32 @@ public class LcdPixelTestActivity extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         super.onBackPressed();
+    }
+
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()) {
+            case R.id.failPixelBtn:
+                userSession.setLCDPixel("0");
+                onBackPressed();
+                break;
+
+            case R.id.passPixelBtn:
+                if ((counter == 0) || (counter == 2)) {
+                    counter = counter + 1;
+                    Log.d("counter First :- ", String.valueOf(counter));
+                    screenTestGreenColor();
+                } else if (counter == 1) {
+                    counter = counter + 1;
+                    screenTestBlueColor();
+                    Log.d("counter Second :-", String.valueOf(counter));
+                } else if (counter == 2) {
+                    counter = counter + 1;
+                    userSession.setLCDPixel("1");
+                    onBackPressed();
+                    Log.d("counter Third :- ", String.valueOf(counter));
+                }
+                break;
+        }
     }
 }
