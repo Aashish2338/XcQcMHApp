@@ -167,6 +167,7 @@ id rearMicTest
 id refreshImg
 id retryTest_btn
 id rightAndLeftChannelTest
+id scratchViews
 id simCardReaderTest
 id startTest_btn
 id surfaceView
@@ -194,9 +195,11 @@ id wifiCheckImg
 id wifiTest
 id yesVibrate
 layout activity_accelerometer_test
+layout activity_altra_wide_camera_test
 layout activity_bluetooth_test
 layout activity_buttons_test
 layout activity_dashboard
+layout activity_digitizer_test
 layout activity_earpiece_test
 layout activity_flash_test
 layout activity_front_camera_test

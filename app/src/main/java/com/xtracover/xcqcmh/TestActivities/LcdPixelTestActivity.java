@@ -16,6 +16,7 @@ import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
 import android.view.WindowManager;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -23,6 +24,7 @@ import android.widget.Toast;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;
+import androidx.core.content.ContextCompat;
 
 import com.cooltechworks.views.ScratchImageView;
 import com.xtracover.xcqcmh.Activities.DashboardActivity;
@@ -45,7 +47,7 @@ public class LcdPixelTestActivity extends AppCompatActivity implements View.OnCl
         setContentView(R.layout.activity_lcd_pixel_test);
         mContext = this;
         userSession = new UserSession(mContext);
-
+        getChangedNotificationColor();
         failPixelBtn = (AppCompatButton) findViewById(R.id.failPixelBtn);
         passPixelBtn = (AppCompatButton) findViewById(R.id.passPixelBtn);
 
@@ -53,6 +55,19 @@ public class LcdPixelTestActivity extends AppCompatActivity implements View.OnCl
         passPixelBtn.setOnClickListener(this);
 
         getLCDPixelTestCount();
+    }
+
+    private void getChangedNotificationColor() {
+        try {
+            Window window = getWindow();
+            window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+            window.setStatusBarColor(ContextCompat.getColor(mContext, R.color.white));
+            getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
+
+        } catch (Exception exp) {
+            exp.getStackTrace();
+        }
     }
 
     private void getLCDPixelTestCount() {

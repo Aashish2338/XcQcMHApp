@@ -3531,6 +3531,7 @@ int id save_non_transition_alpha 0x7f0901b3
 int id save_overlay_view 0x7f0901b4
 int id sawtooth 0x7f0901b5
 int id scale 0x7f0901b6
+int id scratchViews 0x7f0901b7
 int id screen 0x7f0901b8
 int id scroll 0x7f0901b9
 int id scrollIndicatorDown 0x7f0901ba
@@ -3812,9 +3813,11 @@ int layout abc_search_view 0x7f0c0019
 int layout abc_select_dialog_material 0x7f0c001a
 int layout abc_tooltip 0x7f0c001b
 int layout activity_accelerometer_test 0x7f0c001c
+int layout activity_altra_wide_camera_test 0x7f0c007f
 int layout activity_bluetooth_test 0x7f0c001d
 int layout activity_buttons_test 0x7f0c001e
 int layout activity_dashboard 0x7f0c001f
+int layout activity_digitizer_test 0x7f0c0080
 int layout activity_earpiece_test 0x7f0c0020
 int layout activity_flash_test 0x7f0c0021
 int layout activity_front_camera_test 0x7f0c007e

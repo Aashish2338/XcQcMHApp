@@ -6,10 +6,12 @@ import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
 import android.view.WindowManager;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;
+import androidx.core.content.ContextCompat;
 
 import com.xtracover.xcqcmh.R;
 import com.xtracover.xcqcmh.Utilities.UserSession;
@@ -28,12 +30,26 @@ public class LcdGlassTestActivity extends AppCompatActivity implements View.OnCl
         setContentView(R.layout.activity_lcd_glass_test);
         mContext = this;
         userSession = new UserSession(mContext);
+        getChangedNotificationColor();
         failBtn = (AppCompatButton) findViewById(R.id.failBtn);
         passBtn = (AppCompatButton) findViewById(R.id.passBtn);
 
         passBtn.setOnClickListener(this);
         failBtn.setOnClickListener(this);
 
+    }
+
+    private void getChangedNotificationColor() {
+        try {
+            Window window = getWindow();
+            window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+            window.setStatusBarColor(ContextCompat.getColor(mContext, R.color.white));
+            getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
+
+        } catch (Exception exp) {
+            exp.getStackTrace();
+        }
     }
 
     private void setHideSystemUI() {

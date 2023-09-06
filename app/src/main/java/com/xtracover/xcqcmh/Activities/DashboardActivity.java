@@ -122,12 +122,6 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
         lCDPixelTest.setOnClickListener(this);
         digitizerTest.setOnClickListener(this);
 
-        if (userSession.getLCDPixel().equalsIgnoreCase("Pass")) {
-            lCDPixelTest.setBackground(getDrawable(R.drawable.bg_test_drwble_green));
-        } else {
-            lCDPixelTest.setBackground(getDrawable(R.drawable.bg_test_drwble_blue));
-        }
-
         // Currently not in use but if we need in case future then we will use it as per required
         gpsTest.setOnClickListener(this);
         accelerometerTest.setOnClickListener(this);
@@ -274,6 +268,7 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
                 break;
 
             case R.id.altraWideCameraTest:
+
                 Toast.makeText(mContext, "In Progress Altra Wide Camera test!", Toast.LENGTH_SHORT).show();
                 break;
 

@@ -9,6 +9,7 @@ import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
+import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
@@ -17,12 +18,14 @@ import android.widget.Toast;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
 import com.xtracover.xcqcmh.Activities.DashboardActivity;
 import com.xtracover.xcqcmh.Activities.LoginActivity;
 import com.xtracover.xcqcmh.Utilities.UserSession;
 
+import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -49,6 +52,11 @@ public class SplashScreenActivity extends AppCompatActivity {
         if (Build.VERSION.SDK_INT >= 23) {
             checkMultiplePermissions();
         }
+
+        String deviceSerialNumber = getSerialNumber();
+        String serialNumberOfDevice = getDeviceSerialNumber();
+        System.out.println("Device Serial Number :- " + deviceSerialNumber + ", " + serialNumberOfDevice);
+
     }
 
     private void getSoftwareVersion() {
@@ -142,8 +150,7 @@ public class SplashScreenActivity extends AppCompatActivity {
             if (checkSelfPermission(permission) != PackageManager.PERMISSION_GRANTED) {
                 permissionsList.add(permission);
                 // Check for Rationale Option
-                if (!shouldShowRequestPermissionRationale(permission))
-                    return false;
+                if (!shouldShowRequestPermissionRationale(permission)) return false;
             }
         return true;
     }
@@ -159,7 +166,6 @@ public class SplashScreenActivity extends AppCompatActivity {
                 perms.put(Manifest.permission.CAMERA, PackageManager.PERMISSION_GRANTED);
                 perms.put(Manifest.permission.READ_PHONE_STATE, PackageManager.PERMISSION_GRANTED);
                 perms.put(Manifest.permission.RECORD_AUDIO, PackageManager.PERMISSION_GRANTED);
-//                perms.put(Manifest.permission.ACCESS_COARSE_LOCATION, PackageManager.PERMISSION_GRANTED);
 
                 // Fill with results
                 for (int i = 0; i < permissions.length; i++)
@@ -169,20 +175,14 @@ public class SplashScreenActivity extends AppCompatActivity {
                         && perms.get(android.Manifest.permission.CALL_PHONE) == PackageManager.PERMISSION_GRANTED
                         && perms.get(android.Manifest.permission.CAMERA) == PackageManager.PERMISSION_GRANTED
                         && perms.get(android.Manifest.permission.READ_PHONE_STATE) == PackageManager.PERMISSION_GRANTED
-                        && perms.get(Manifest.permission.RECORD_AUDIO) == PackageManager.PERMISSION_GRANTED
-                    /*&& perms.get(android.Manifest.permission.ACCESS_COARSE_LOCATION) == PackageManager.PERMISSION_GRANTED*/) {
+                        && perms.get(Manifest.permission.RECORD_AUDIO) == PackageManager.PERMISSION_GRANTED) {
                     // All Permissions Granted
                     getGotoNextPage();
                     return;
                 } else {
                     // Permission Denied
                     if (Build.VERSION.SDK_INT >= 23) {
-                        Toast.makeText(
-                                mContext,
-                                "My App cannot run without Location and Storage " +
-                                        "Permissions.\nRelaunch My App or allow permissions" +
-                                        " in Applications Settings",
-                                Toast.LENGTH_LONG).show();
+                        Toast.makeText(mContext, "My App cannot run without Location and Storage " + "Permissions.\nRelaunch My App or allow permissions" + " in Applications Settings", Toast.LENGTH_LONG).show();
                         finish();
                     }
                 }
@@ -192,5 +192,64 @@ public class SplashScreenActivity extends AppCompatActivity {
             default:
                 super.onRequestPermissionsResult(requestCode, permissions, grantResults);
         }
+    }
+
+    public static String getSerialNumber() {
+        String serialNumber = null;
+        try {
+            Class<?> c = Class.forName("android.os.SystemProperties");
+            Method get = c.getMethod("get", String.class);
+            serialNumber = (String) get.invoke(c, "gsm.sn1");
+
+            if (serialNumber == "") {
+                serialNumber = (String) get.invoke(c, "ril.serialnumber");
+            } else if (serialNumber == "") {
+                serialNumber = (String) get.invoke(c, "ro.serialno");
+            } else if (serialNumber == "") {
+                serialNumber = (String) get.invoke(c, "sys.serialnumber");
+            } else if (serialNumber == "") {
+                serialNumber = (String) get.invoke(c, "ro.boot.serialno");
+            } else if (serialNumber == "") {
+                serialNumber = (String) get.invoke(c, "ro.kernel.androidboot.serialno");
+            } else if (serialNumber == "") {
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                    serialNumber = Build.getSerial();
+                } else {
+                    serialNumber = Build.SERIAL;
+                }
+            }
+            if (serialNumber == "") {
+                serialNumber = null;
+            }
+        } catch (Exception exp) {
+            exp.getStackTrace();
+        }
+        if (!serialNumber.equalsIgnoreCase("") && serialNumber != Build.UNKNOWN) {
+            return serialNumber;
+        }
+        return "N/A";
+    }
+
+    public static String getDeviceSerialNumber() {
+        String serialNumber;
+
+        try {
+            Class<?> c = Class.forName("android.os.SystemProperties");
+            Method get = c.getMethod("get", String.class);
+
+            serialNumber = (String) get.invoke(c, "gsm.sn1");
+            if (serialNumber.equals("")) serialNumber = (String) get.invoke(c, "ril.serialnumber");
+            if (serialNumber.equals("")) serialNumber = (String) get.invoke(c, "ro.serialno");
+            if (serialNumber.equals("")) serialNumber = (String) get.invoke(c, "sys.serialnumber");
+            if (serialNumber.equals("")) serialNumber = Build.SERIAL;
+
+            // If none of the methods above worked
+            if (serialNumber.equals("")) serialNumber = null;
+        } catch (Exception e) {
+            e.printStackTrace();
+            serialNumber = null;
+        }
+
+        return serialNumber;
     }
 }

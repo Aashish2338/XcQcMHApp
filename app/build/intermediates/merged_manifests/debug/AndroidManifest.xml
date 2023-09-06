@@ -74,6 +74,12 @@
         android:theme="@style/Theme.XcQcMHApp"
         android:usesCleartextTraffic="true" >
         <activity
+            android:name="com.xtracover.xcqcmh.AltraWideCameraTestActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.xtracover.xcqcmh.TestActivities.DigitizerTestActivity"
+            android:exported="false" />
+        <activity
             android:name="com.xtracover.xcqcmh.TestActivities.FrontCameraTestActivity"
             android:exported="false" />
         <activity

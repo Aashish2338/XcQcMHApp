@@ -8,12 +8,12 @@
         "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\layout\\activity_accelerometer_test.xml"
     },
     {
-        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_user.png.flat",
-        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\user.png"
-    },
-    {
         "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_scan_digitizer.png.flat",
         "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\scan_digitizer.png"
+    },
+    {
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_user.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\user.png"
     },
     {
         "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_simcard.png.flat",
@@ -60,12 +60,12 @@
         "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\raw\\notification_songs.mp3"
     },
     {
-        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\mipmap-hdpi\\ic_launcher.png"
-    },
-    {
         "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\layout_activity_flash_test.xml.flat",
         "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\layout\\activity_flash_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\mipmap-hdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_scan_wifi.png.flat",
@@ -184,6 +184,10 @@
         "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/layout_activity_lcd_glass_test.xml.flat",
+        "source": "com.xtracover.xcqcmh.app-main-33:/layout/activity_lcd_glass_test.xml"
+    },
+    {
         "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_scan_light.png.flat",
         "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\drawable\\scan_light.png"
     },
@@ -254,6 +258,10 @@
     {
         "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
         "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/layout_activity_digitizer_test.xml.flat",
+        "source": "com.xtracover.xcqcmh.app-main-33:/layout/activity_digitizer_test.xml"
     },
     {
         "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\drawable_bg_test_drwble_blue.xml.flat",
@@ -418,6 +426,10 @@
     {
         "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-main-33:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "com.xtracover.xcqcmh.app-merged_res-31:/layout_activity_altra_wide_camera_test.xml.flat",
+        "source": "com.xtracover.xcqcmh.app-main-33:/layout/activity_altra_wide_camera_test.xml"
     },
     {
         "merged": "C:\\Users\\aashi\\.gradle\\daemon\\7.5\\com.xtracover.xcqcmh.app-merged_res-31:\\layout_vibrate_item_layout.xml.flat",

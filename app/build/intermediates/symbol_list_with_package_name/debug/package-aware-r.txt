@@ -3532,6 +3532,7 @@ id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
 id scale
+id scratchViews
 id screen
 id scroll
 id scrollIndicatorDown
@@ -3813,9 +3814,11 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_accelerometer_test
+layout activity_altra_wide_camera_test
 layout activity_bluetooth_test
 layout activity_buttons_test
 layout activity_dashboard
+layout activity_digitizer_test
 layout activity_earpiece_test
 layout activity_flash_test
 layout activity_front_camera_test

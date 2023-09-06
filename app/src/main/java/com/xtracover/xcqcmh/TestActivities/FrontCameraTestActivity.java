@@ -1,6 +1,7 @@
 package com.xtracover.xcqcmh.TestActivities;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 import android.content.Context;
 import android.net.Uri;
@@ -8,6 +9,8 @@ import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.view.SurfaceView;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.ImageView;
 
 import com.xtracover.xcqcmh.R;
@@ -28,10 +31,24 @@ public class FrontCameraTestActivity extends AppCompatActivity {
         setContentView(R.layout.activity_front_camera_test);
         mContext = this;
         userSession = new UserSession(mContext);
-        getLayoutUiIdFinds();
+        getChangedNotificationColor();
 
+        getLayoutUiIdFinds();
         getCountFrontCameraTest();
 
+    }
+
+    private void getChangedNotificationColor() {
+        try {
+            Window window = getWindow();
+            window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+            window.setStatusBarColor(ContextCompat.getColor(mContext, R.color.white));
+            getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
+
+        } catch (Exception exp) {
+            exp.getStackTrace();
+        }
     }
 
     private void getCountFrontCameraTest() {
